@@ -13,13 +13,29 @@ html {
 .header {
   height: 10rem;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
+}
+@media screen and (max-width: 375px) {
+  .header .header {
+    display: flex;
+    justify-content: left;
+  }
+  .header .header > img {
+    width: 0%;
+    height: 0%;
+  }
 }
 .header > img {
   height: 40%;
   width: 100%;
-  margin: 50px;
+  margin: 40px;
+}
+.header__location-text {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

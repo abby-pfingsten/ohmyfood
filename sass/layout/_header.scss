@@ -1,14 +1,21 @@
-$header-side-margin: 50px;
+$header-side-margin: 40px;
 
 .header {
     height: 10rem;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;   
+    @include desktop-only;
     > img {
         height: 40%;
-            width: 100%;
+        width: 100%;
         margin: $header-side-margin ;
         // @include heading-shadow($colour-white);
+    }
+    &__location-text {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
     }
 }
