@@ -23,10 +23,21 @@ html {
   display: flex;
   flex-direction: row;
   align-content: center;
-  gap: 7;
+  justify-content: center;
   font-size: 15px;
   background-color: #E5E4E2;
   padding: 20px 10px;
+}
+.header__location--text {
+  margin-left: 10px;
+}
+
+.nav {
+  background-color: #f1f1ef;
+}
+.nav__heading {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */

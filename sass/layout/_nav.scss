@@ -1,3 +1,4 @@
+
 // .nav {
 //     padding-right: $layout-margin;
 //     flex: 2 1 auto;
@@ -22,3 +23,12 @@
 //         }
 //     }
 // }
+
+.nav {
+    // can i use the variable from header here instead? 
+    background-color: lighten(#E5E4E2, 5%);
+    &__heading {
+        display: flex;
+        flex-direction: row;
+    }
+}

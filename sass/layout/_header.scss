@@ -11,33 +11,24 @@ $dark-gray: #E5E4E2;
     height: 10rem;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     width: 100%;   
+// how does this work
     // @include desktop-only;
     > img {
-        // display: flex;
-        // flex-direction: column-reverse;
-        // justify-content: center;
-        // height: 40%;
-        // width: 50%;
         margin: map-get($margins, header-side);
-        // @include heading-shadow($colour-white);
     }
     &__location {
         display: flex;
         flex-direction: row;
         align-content: center;
-        gap: 7;
+        justify-content: center;
         font-size: 15px;
         background-color: $dark-gray;
         padding: map-get($paddings, header-location-sides) map-get($paddings, header-location-top-bottom)
-    }
-    // &__location-text {
-    //     display: flex;
-    //     justify-content: center;
-    //     font-size: 15px;
-    //     background-color: $dark-gray;
-    //     padding: map-get($paddings, header-location-sides) map-get($map: $paddings, $key:header-location-top-bottom )
-    // }
 
+    }
+    // why can't i add this as a child of &__location
+    &__location--text {
+        margin-left: 10px;
+    }
 }
