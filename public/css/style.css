@@ -14,15 +14,16 @@ html {
   height: 10rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 100%;
 }
 .header > img {
   margin: 30px;
 }
-.header__location-text {
+.header__location {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  gap: 7;
   font-size: 15px;
   background-color: #E5E4E2;
   padding: 20px 10px;
