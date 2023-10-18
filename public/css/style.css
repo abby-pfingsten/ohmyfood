@@ -11,7 +11,6 @@ html {
 }
 
 .header {
-  height: 10rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -56,6 +55,7 @@ html {
   padding: 15px 25px;
   background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
