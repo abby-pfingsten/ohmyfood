@@ -1,0 +1,26 @@
+$margin-for-num: 0px;
+$font-size-for-instructions: 15px;
+.instructions {
+    margin-left: 20px;
+    font-size: $font-size-for-instructions;
+    // how would i do this for just the h1 tag
+    &__h1 {
+        font-size: 20px;
+    }
+    // create a function here for all 3 ? 
+    &__1 {
+        display: flex;
+        flex-direction: row;
+    
+    }
+        &__1--num {
+            margin-right: $margin-for-num;
+        }
+        &__1--txt {
+            border-radius: 20px;
+            padding: 20px 90px 20px 90px;
+            background-color: lighten(#E5E4E2, 5%);
+            font-weight: bold;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+        }
+}

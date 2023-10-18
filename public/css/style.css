@@ -58,4 +58,26 @@ html {
   text-decoration: none;
 }
 
+.instructions {
+  margin-left: 20px;
+  font-size: 15px;
+}
+.instructions__h1 {
+  font-size: 20px;
+}
+.instructions__1 {
+  display: flex;
+  flex-direction: row;
+}
+.instructions__1--num {
+  margin-right: 0px;
+}
+.instructions__1--txt {
+  border-radius: 20px;
+  padding: 20px 90px 20px 90px;
+  background-color: #f1f1ef;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
 /*# sourceMappingURL=style.css.map */
