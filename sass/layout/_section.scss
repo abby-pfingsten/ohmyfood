@@ -19,12 +19,14 @@ $font-size-for-instructions: 15px;
             align-self: center;
             border: solid;
             border-radius: 35px;
-            padding: 2px 5px
+            padding: 2px 5px;
+            background-color: $colour-primary;
+            color: white;
         }
         &__1--txt {
             border-radius: 20px;
             padding: 20px 90px 20px 90px;
-            background-color: lighten(#E5E4E2, 5%);
+            background-color: $lighter-gray;
             font-weight: bold;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
             margin-bottom: 20px;
@@ -39,12 +41,15 @@ $font-size-for-instructions: 15px;
                 align-self: center;
                 border: solid;
                 border-radius: 35px;
-                padding: 2px 5px        }
+                padding: 2px 5px;
+                background-color: $colour-primary;
+                color: white;
+            }
 
         &__2--txt {
             border-radius: 20px;
             padding: 20px 100px 20px 90px;
-            background-color: lighten(#E5E4E2, 5%);
+            background-color: $lighter-gray;
             font-weight: bold;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
@@ -59,13 +64,15 @@ $font-size-for-instructions: 15px;
                 align-self: center;
                 border: solid;
                 border-radius: 35px;
-                padding: 2px 5px        
+                padding: 2px 5px;  
+                background-color: $colour-primary;
+                color: white;
             }
 
         &__3--txt {
             border-radius: 20px;
             padding: 20px 50px 20px 60px;
-            background-color: lighten(#E5E4E2, 5%);
+            background-color: $lighter-gray;
             font-weight: bold;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;

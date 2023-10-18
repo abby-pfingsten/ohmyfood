@@ -76,6 +76,8 @@ html {
   border: solid;
   border-radius: 35px;
   padding: 2px 5px;
+  background-color: #9356DC;
+  color: white;
 }
 .instructions__1--txt {
   border-radius: 20px;
@@ -95,6 +97,8 @@ html {
   border: solid;
   border-radius: 35px;
   padding: 2px 5px;
+  background-color: #9356DC;
+  color: white;
 }
 .instructions__2--txt {
   border-radius: 20px;
@@ -114,6 +118,8 @@ html {
   border: solid;
   border-radius: 35px;
   padding: 2px 5px;
+  background-color: #9356DC;
+  color: white;
 }
 .instructions__3--txt {
   border-radius: 20px;
@@ -123,6 +129,12 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   white-space: nowrap;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1ef;
 }
 
 /*# sourceMappingURL=style.css.map */
