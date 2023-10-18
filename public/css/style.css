@@ -54,8 +54,9 @@ html {
   border-radius: 35px;
   padding: 15px 25px;
   background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
-  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  color: white;
 }
 
 .instructions {
@@ -71,6 +72,10 @@ html {
 }
 .instructions__1--num {
   margin-right: 0px;
+  align-self: center;
+  border: solid;
+  border-radius: 35px;
+  padding: 2px 5px;
 }
 .instructions__1--txt {
   border-radius: 20px;
@@ -78,6 +83,46 @@ html {
   background-color: #f1f1ef;
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.instructions__2 {
+  display: flex;
+  flex-direction: row;
+}
+.instructions__2--num {
+  margin-right: 0px;
+  align-self: center;
+  border: solid;
+  border-radius: 35px;
+  padding: 2px 5px;
+}
+.instructions__2--txt {
+  border-radius: 20px;
+  padding: 20px 100px 20px 90px;
+  background-color: #f1f1ef;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.instructions__3 {
+  display: flex;
+  flex-direction: row;
+}
+.instructions__3--num {
+  margin-right: 0px;
+  align-self: center;
+  border: solid;
+  border-radius: 35px;
+  padding: 2px 5px;
+}
+.instructions__3--txt {
+  border-radius: 20px;
+  padding: 20px 50px 20px 60px;
+  background-color: #f1f1ef;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=style.css.map */
