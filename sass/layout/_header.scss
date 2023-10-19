@@ -24,7 +24,7 @@ $paddings: (
     }
   }
   &__location {
-    width: 100%;
+    width: 94%;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -33,6 +33,10 @@ $paddings: (
     background-color: $dark-gray;
     padding: map-get($paddings, header-location-sides)
       map-get($paddings, header-location-top-bottom);
+    // TODO - NOT WORKING HORIZONTAL SCROLL BAR HERE
+    @include desktop-only {
+      width: 100%;
+    }
 
     &--text {
       margin-left: 10px;

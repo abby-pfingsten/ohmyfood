@@ -13,10 +13,11 @@ $font-size-for-instructions: 15px;
     @include desktop-only {
       display: flex;
       flex-direction: row;
+      justify-content: center;
     }
   }
   // how to overlay
-  &__step--num {
+  &__step--number {
     margin-right: $margin-for-num;
     align-self: center;
     border: solid;
@@ -25,7 +26,7 @@ $font-size-for-instructions: 15px;
     background-color: $colour-primary;
     color: white;
   }
-  &__step--txt {
+  &__step--text {
     width: 100%;
     border-radius: 20px;
     padding: 20px 40px;
@@ -33,5 +34,8 @@ $font-size-for-instructions: 15px;
     font-weight: bold;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+  }
+  &__step--img {
+    color: darken($dark-gray, 45%);
   }
 }

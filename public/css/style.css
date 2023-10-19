@@ -30,7 +30,7 @@ html {
   }
 }
 .header__location {
-  width: 100%;
+  width: 94%;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -38,6 +38,11 @@ html {
   font-size: 15px;
   background-color: #E5E4E2;
   padding: 15px 10px;
+}
+@media screen and (min-width: 970px) {
+  .header__location {
+    width: 100%;
+  }
 }
 .header__location--text {
   margin-left: 10px;
@@ -92,9 +97,10 @@ html {
   .instructions__step {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 }
-.instructions__step--num {
+.instructions__step--number {
   margin-right: 0px;
   align-self: center;
   border: solid;
@@ -103,7 +109,7 @@ html {
   background-color: #9356DC;
   color: white;
 }
-.instructions__step--txt {
+.instructions__step--text {
   width: 100%;
   border-radius: 20px;
   padding: 20px 40px;
@@ -111,6 +117,9 @@ html {
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+}
+.instructions__step--img {
+  color: #77736b;
 }
 
 .restaurant {
