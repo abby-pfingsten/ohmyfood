@@ -92,6 +92,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  position: relative;
 }
 @media screen and (min-width: 970px) {
   .instructions__step {
@@ -103,14 +104,23 @@ html {
 .instructions__step--number {
   margin-right: 0px;
   align-self: center;
-  border: solid;
   border-radius: 35px;
   padding: 2px 5px;
   background-color: #9356DC;
   color: white;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: -8px;
+  font-size: 12px;
+}
+@media screen and (min-width: 970px) {
+  .instructions__step--number {
+    left: 80px;
+  }
 }
 .instructions__step--text {
-  width: 100%;
+  width: 75%;
   border-radius: 20px;
   padding: 20px 40px;
   background-color: #f1f1ef;

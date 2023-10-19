@@ -10,6 +10,7 @@ $font-size-for-instructions: 15px;
     display: flex;
     flex-direction: row;
     justify-content: left;
+    position: relative;
     @include desktop-only {
       display: flex;
       flex-direction: row;
@@ -20,14 +21,21 @@ $font-size-for-instructions: 15px;
   &__step--number {
     margin-right: $margin-for-num;
     align-self: center;
-    border: solid;
     border-radius: 35px;
     padding: 2px 5px;
     background-color: $colour-primary;
     color: white;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: -8px;
+    font-size: 12px;
+    @include desktop-only {
+        left: 80px;
+    }
   }
   &__step--text {
-    width: 100%;
+    width: 75%;
     border-radius: 20px;
     padding: 20px 40px;
     background-color: $lighter-gray;
