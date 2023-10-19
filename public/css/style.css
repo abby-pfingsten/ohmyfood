@@ -118,7 +118,9 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
-.instructions__step--img {
+.instructions__step--icon {
+  margin-left: -10px;
+  margin-right: 20px;
   color: #77736b;
 }
 
