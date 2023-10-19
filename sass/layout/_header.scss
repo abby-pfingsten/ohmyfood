@@ -1,16 +1,18 @@
 $margins: (
-  header-side: 30px,
+  header-side: 20px,
 );
 $paddings: (
-  header-location-sides: 20px,
+  header-location-sides: 15px,
   header-location-top-bottom: 10px,
 );
 
 .header {
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
   > img {
+    width: 50%;
     margin: map-get($margins, header-side);
   }
   // how does this work
@@ -22,6 +24,7 @@ $paddings: (
     }
   }
   &__location {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-content: center;
