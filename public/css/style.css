@@ -80,14 +80,21 @@ html {
   margin-left: 20px;
   font-size: 15px;
 }
-.instructions__h1 {
+.instructions__title {
   font-size: 20px;
 }
-.instructions__1 {
+.instructions__step {
   display: flex;
   flex-direction: row;
+  justify-content: left;
 }
-.instructions__1--num {
+@media screen and (min-width: 970px) {
+  .instructions__step {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.instructions__step--num {
   margin-right: 0px;
   align-self: center;
   border: solid;
@@ -96,56 +103,14 @@ html {
   background-color: #9356DC;
   color: white;
 }
-.instructions__1--txt {
+.instructions__step--txt {
+  width: 100%;
   border-radius: 20px;
-  padding: 20px 90px 20px 90px;
+  padding: 20px 40px;
   background-color: #f1f1ef;
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-}
-.instructions__2 {
-  display: flex;
-  flex-direction: row;
-}
-.instructions__2--num {
-  margin-right: 0px;
-  align-self: center;
-  border: solid;
-  border-radius: 35px;
-  padding: 2px 5px;
-  background-color: #9356DC;
-  color: white;
-}
-.instructions__2--txt {
-  border-radius: 20px;
-  padding: 20px 100px 20px 90px;
-  background-color: #f1f1ef;
-  font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-.instructions__3 {
-  display: flex;
-  flex-direction: row;
-}
-.instructions__3--num {
-  margin-right: 0px;
-  align-self: center;
-  border: solid;
-  border-radius: 35px;
-  padding: 2px 5px;
-  background-color: #9356DC;
-  color: white;
-}
-.instructions__3--txt {
-  border-radius: 20px;
-  padding: 20px 50px 20px 60px;
-  background-color: #f1f1ef;
-  font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  white-space: nowrap;
 }
 
 .restaurant {
