@@ -1,0 +1,81 @@
+$margin-for-num: 0px;
+$font-size-for-instructions: 15px;
+.instructions {
+    margin-left: 20px;
+    font-size: $font-size-for-instructions;
+    // how would i do this for just the h1 tag without giving it class name
+    &__h1 {
+        font-size: 20px;
+    }
+    // create a function here for all 3 ? 
+
+    &__1 {
+        display: flex;
+        flex-direction: row;
+    }
+// how to overlay
+        &__1--num {
+            margin-right: $margin-for-num;
+            align-self: center;
+            border: solid;
+            border-radius: 35px;
+            padding: 2px 5px;
+            background-color: $colour-primary;
+            color: white;
+        }
+        &__1--txt {
+            border-radius: 20px;
+            padding: 20px 90px 20px 90px;
+            background-color: $lighter-gray;
+            font-weight: bold;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+    &__2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+        &__2--num {
+            margin-right: $margin-for-num;
+                align-self: center;
+                border: solid;
+                border-radius: 35px;
+                padding: 2px 5px;
+                background-color: $colour-primary;
+                color: white;
+            }
+
+        &__2--txt {
+            border-radius: 20px;
+            padding: 20px 100px 20px 90px;
+            background-color: $lighter-gray;
+            font-weight: bold;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+    &__3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+        &__3--num {
+            margin-right: $margin-for-num;
+                align-self: center;
+                border: solid;
+                border-radius: 35px;
+                padding: 2px 5px;  
+                background-color: $colour-primary;
+                color: white;
+            }
+
+        &__3--txt {
+            border-radius: 20px;
+            padding: 20px 50px 20px 60px;
+            background-color: $lighter-gray;
+            font-weight: bold;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            white-space: nowrap;
+        }
+}

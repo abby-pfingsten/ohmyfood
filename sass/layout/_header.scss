@@ -1,14 +1,38 @@
+$margins: (
+  header-side: 30px,
+);
+$paddings: (
+  header-location-sides: 20px,
+  header-location-top-bottom: 10px,
+);
+
 .header {
-    background: $colour-primary;
-    height: 10rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  > img {
+    margin: map-get($margins, header-side);
+  }
+  // how does this work
+  @include desktop-only {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;   
-    &__logo {
-        font-size: 7rem;
-        color: $colour-secondary;
-        margin-left: 10rem;
-        @include heading-shadow($colour-white);
+    > img {
+      width: 20%;
     }
+  }
+  &__location {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: $dark-gray;
+    padding: map-get($paddings, header-location-sides)
+      map-get($paddings, header-location-top-bottom);
+
+    &--text {
+      margin-left: 10px;
+    }
+  }
 }
