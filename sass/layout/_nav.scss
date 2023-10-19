@@ -36,12 +36,17 @@ $nav-st-font-size: 15px;
     font-size: $nav-st-font-size;
     margin-left: 40px;
     margin-right: 40px;
+    text-align: center;
+    @include desktop-only {
+      br {
+        display: none;
+      }
+    }
   }
   &__bttn {
     font-size: $nav-st-font-size;
     margin-top: 40px;
     margin-bottom: 40px;
-    border: solid;
     border-radius: 35px;
     padding: 15px 25px;
     background-image: linear-gradient(
