@@ -1,0 +1,51 @@
+$margin-for-num: 0px;
+$font-size-for-instructions: 15px;
+.instructions {
+  margin-left: 20px;
+  font-size: $font-size-for-instructions;
+  &__title {
+    font-size: 20px;
+  }
+  &__step {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+    @include desktop-only {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  // how to overlay
+  &__step--number {
+    margin-right: $margin-for-num;
+    align-self: center;
+    border-radius: 35px;
+    padding: 2px 5px;
+    background-color: $colour-primary;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: -8px;
+    font-size: 12px;
+    @include desktop-only {
+      left: 80px;
+    }
+  }
+  &__step--text {
+    width: 75%;
+    border-radius: 20px;
+    padding: 20px 40px;
+    background-color: $lighter-gray;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  &__step--icon {
+    margin-left: -10px;
+    margin-right: 20px;
+    color: darken($dark-gray, 45%);
+  }
+}

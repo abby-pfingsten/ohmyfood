@@ -30,7 +30,7 @@ html {
   }
 }
 .header__location {
-  width: 100%;
+  width: 94%;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -38,6 +38,11 @@ html {
   font-size: 15px;
   background-color: #E5E4E2;
   padding: 15px 10px;
+}
+@media screen and (min-width: 970px) {
+  .header__location {
+    width: 100%;
+  }
 }
 .header__location--text {
   margin-left: 10px;
@@ -80,72 +85,53 @@ html {
   margin-left: 20px;
   font-size: 15px;
 }
-.instructions__h1 {
+.instructions__title {
   font-size: 20px;
 }
-.instructions__1 {
+.instructions__step {
   display: flex;
   flex-direction: row;
+  justify-content: left;
+  position: relative;
 }
-.instructions__1--num {
+@media screen and (min-width: 970px) {
+  .instructions__step {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.instructions__step--number {
   margin-right: 0px;
   align-self: center;
-  border: solid;
   border-radius: 35px;
   padding: 2px 5px;
   background-color: #9356DC;
   color: white;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: -8px;
+  font-size: 12px;
 }
-.instructions__1--txt {
+@media screen and (min-width: 970px) {
+  .instructions__step--number {
+    left: 80px;
+  }
+}
+.instructions__step--text {
+  width: 75%;
   border-radius: 20px;
-  padding: 20px 90px 20px 90px;
+  padding: 20px 40px;
   background-color: #f1f1ef;
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
-.instructions__2 {
-  display: flex;
-  flex-direction: row;
-}
-.instructions__2--num {
-  margin-right: 0px;
-  align-self: center;
-  border: solid;
-  border-radius: 35px;
-  padding: 2px 5px;
-  background-color: #9356DC;
-  color: white;
-}
-.instructions__2--txt {
-  border-radius: 20px;
-  padding: 20px 100px 20px 90px;
-  background-color: #f1f1ef;
-  font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-.instructions__3 {
-  display: flex;
-  flex-direction: row;
-}
-.instructions__3--num {
-  margin-right: 0px;
-  align-self: center;
-  border: solid;
-  border-radius: 35px;
-  padding: 2px 5px;
-  background-color: #9356DC;
-  color: white;
-}
-.instructions__3--txt {
-  border-radius: 20px;
-  padding: 20px 50px 20px 60px;
-  background-color: #f1f1ef;
-  font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-  white-space: nowrap;
+.instructions__step--icon {
+  margin-left: -10px;
+  margin-right: 20px;
+  color: #77736b;
 }
 
 .restaurant {
