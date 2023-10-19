@@ -1,4 +1,3 @@
-
 // .nav {
 //     padding-right: $layout-margin;
 //     flex: 2 1 auto;
@@ -25,33 +24,33 @@
 // }
 $nav-st-font-size: 15px;
 .nav {
-    // can i use the variable from header here instead? 
-    background-color: lighten(#E5E4E2, 5%);
-    display: flex;
-        flex-direction: column;
-        align-items: center;
-    &__h1 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    &__p {
-        font-size: $nav-st-font-size;
-        margin-left: 40px;
-        margin-right: 40px;
- 
-    }
-    &__bttn {
-        font-size: $nav-st-font-size;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        border: solid;
-        border-radius: 35px;
-        padding: 15px 25px;
-        background-image: linear-gradient(to bottom right, $colour-secondary, $colour-primary);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        text-decoration: none;
-        color: white;
-
-
-    }
+  background-color: $lighter-gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: $nav-st-font-size;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  &__bttn {
+    font-size: $nav-st-font-size;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid;
+    border-radius: 35px;
+    padding: 15px 25px;
+    background-image: linear-gradient(
+      to bottom right,
+      $colour-secondary,
+      $colour-primary
+    );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: white;
+  }
 }

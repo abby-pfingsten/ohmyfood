@@ -1,32 +1,38 @@
 $margins: (
-    header-side: 30px
+  header-side: 30px,
 );
 $paddings: (
-    header-location-sides: 20px,
-    header-location-top-bottom: 10px
+  header-location-sides: 20px,
+  header-location-top-bottom: 10px,
 );
 
 .header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  > img {
+    margin: map-get($margins, header-side);
+  }
+  // how does this work
+  @include desktop-only {
     display: flex;
-    flex-direction: column;
-    width: 100%;   
-// how does this work
-    // @include desktop-only;
+    align-items: center;
     > img {
-        margin: map-get($margins, header-side);
+      width: 20%;
     }
-    &__location {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-        font-size: 15px;
-        background-color: $dark-gray;
-        padding: map-get($paddings, header-location-sides) map-get($paddings, header-location-top-bottom)
+  }
+  &__location {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+    background-color: $dark-gray;
+    padding: map-get($paddings, header-location-sides)
+      map-get($paddings, header-location-top-bottom);
 
+    &--text {
+      margin-left: 10px;
     }
-    // why can't i add this as a child of &__location
-    &__location--text {
-        margin-left: 10px;
-    }
+  }
 }

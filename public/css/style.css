@@ -18,6 +18,15 @@ html {
 .header > img {
   margin: 30px;
 }
+@media screen and (min-width: 970px) {
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  .header > img {
+    width: 20%;
+  }
+}
 .header__location {
   display: flex;
   flex-direction: row;
@@ -37,11 +46,11 @@ html {
   flex-direction: column;
   align-items: center;
 }
-.nav__h1 {
+.nav h1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.nav__p {
+.nav p {
   font-size: 15px;
   margin-left: 40px;
   margin-right: 40px;
