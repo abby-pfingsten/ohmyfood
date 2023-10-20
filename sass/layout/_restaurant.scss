@@ -9,6 +9,10 @@
     border: solid;
     border-radius: 5%;
     width: 80%;
+    &--card {
+      text-decoration: none;
+      color: black;
+    }
     &--img {
       width: 100%;
       border-top-right-radius: 5%;
@@ -16,7 +20,7 @@
     }
     &--title {
       text-decoration: none;
-      padding-left: 10px;
+      padding-left: 9px;
       padding-bottom: 5px;
     }
     &--city {
