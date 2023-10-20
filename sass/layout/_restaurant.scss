@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: column;
   background-color: $lighter-gray;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 20px;
   &__full-palette {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5%;
-    width: 80%;
+    width: 95%;
     &--test {
       display: flex;
       flex-direction: row;
