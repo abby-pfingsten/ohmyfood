@@ -6,9 +6,12 @@
   padding-left: 20px;
   &__full-palette {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    border: solid;
     border-radius: 5%;
     width: 80%;
+    &--test {
+      display: flex;
+      flex-direction: row;
+    }
     &--card {
       text-decoration: none;
       color: black;
@@ -22,11 +25,17 @@
       text-decoration: none;
       padding-left: 9px;
       padding-bottom: 5px;
+      padding-top: 5px;
     }
     &--city {
       text-decoration: none;
       padding-left: 10px;
       padding-bottom: 10px;
+    }
+    &--icon {
+      margin-left: 115px;
+      font-size: 25px;
+      margin-top: 5px;
     }
   }
 }
