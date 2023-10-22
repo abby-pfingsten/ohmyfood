@@ -141,11 +141,23 @@ html {
   padding-top: 20px;
   padding-left: 20px;
 }
+@media screen and (min-width: 970px) {
+  .restaurant {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .restaurant__restaurant-choice {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5%;
   width: 95%;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 970px) {
+  .restaurant__restaurant-choice {
+    height: 40%;
+    margin-right: 20px;
+  }
 }
 .restaurant__restaurant-choice--test {
   display: flex;
@@ -177,6 +189,11 @@ html {
   font-size: 25px;
   margin-top: 9px;
   border-width: 2px;
+}
+@media screen and (min-width: 970px) {
+  .restaurant__restaurant-choice--icon {
+    margin-left: 145px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,11 +4,20 @@
   background-color: $lighter-gray;
   padding-top: 20px;
   padding-left: 20px;
+  //    how do I get restaurants on separate header
+  @include desktop-only {
+    display: flex;
+    flex-direction: row;
+  }
   &__restaurant-choice {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5%;
     width: 95%;
     margin-bottom: 20px;
+    @include desktop-only {
+      height: 40%;
+      margin-right: 20px;
+    }
     &--test {
       display: flex;
       flex-direction: row;
@@ -39,6 +48,9 @@
       font-size: 25px;
       margin-top: 9px;
       border-width: 2px;
+      @include desktop-only {
+        margin-left: 145px;
+      }
     }
   }
 }
