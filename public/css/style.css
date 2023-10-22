@@ -10,6 +10,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Roboto" "Shirkhand";
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -194,6 +198,42 @@ html {
   .restaurant__restaurant-choice--icon {
     margin-left: 145px;
   }
+}
+
+.footer {
+  background-color: #434343;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.footer__title {
+  font-family: "Shrikhand";
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer__links {
+  list-style-type: none;
+  padding-bottom: 20px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__links--suggest {
+  color: white;
+  text-decoration: none;
+}
+.footer__links--partner {
+  color: white;
+  text-decoration: none;
+}
+.footer__links--legal {
+  color: white;
+  text-decoration: none;
+}
+.footer__links--contact {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

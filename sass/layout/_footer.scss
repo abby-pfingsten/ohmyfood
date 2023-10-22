@@ -1,0 +1,35 @@
+.footer {
+  background-color: darken(darkgray, 40%);
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  &__title {
+    font-family: "Shrikhand";
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  &__links {
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &--suggest {
+      color: white;
+      text-decoration: none;
+    }
+    &--partner {
+      color: white;
+      text-decoration: none;
+    }
+    &--legal {
+      color: white;
+      text-decoration: none;
+    }
+    &--contact {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
