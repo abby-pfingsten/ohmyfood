@@ -141,39 +141,42 @@ html {
   padding-top: 20px;
   padding-left: 20px;
 }
-.restaurant__full-palette {
+.restaurant__restaurant-choice {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5%;
   width: 95%;
+  margin-bottom: 20px;
 }
-.restaurant__full-palette--test {
+.restaurant__restaurant-choice--test {
   display: flex;
   flex-direction: row;
 }
-.restaurant__full-palette--card {
+.restaurant__restaurant-choice--card {
   text-decoration: none;
   color: black;
 }
-.restaurant__full-palette--img {
+.restaurant__restaurant-choice--img {
   width: 100%;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
 }
-.restaurant__full-palette--title {
+.restaurant__restaurant-choice--title {
   text-decoration: none;
   padding-left: 9px;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-.restaurant__full-palette--city {
+.restaurant__restaurant-choice--city {
   text-decoration: none;
   padding-left: 10px;
   padding-bottom: 10px;
+  font-size: 12px;
 }
-.restaurant__full-palette--icon {
-  margin-left: 115px;
+.restaurant__restaurant-choice--icon {
+  margin-left: 175px;
   font-size: 25px;
-  margin-top: 5px;
+  margin-top: 9px;
+  border-width: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
