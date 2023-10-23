@@ -23,10 +23,7 @@
     &--div {
       display: flex;
       flex-direction: row;
-    }
-    &--card {
-      text-decoration: none;
-      color: black;
+      justify-content: space-between;
     }
     &--img {
       width: 100%;
@@ -34,25 +31,19 @@
       border-top-left-radius: 5%;
     }
     &--title {
-      text-decoration: none;
       padding-left: 9px;
       padding-bottom: 5px;
       padding-top: 5px;
     }
     &--city {
-      text-decoration: none;
       padding-left: 10px;
       padding-bottom: 10px;
       font-size: 12px;
     }
     &--icon {
-      margin-left: 175px;
-      font-size: 25px;
+      margin-right: 25px;
+      font-size: 20px;
       margin-top: 9px;
-      border-width: 2px;
-      @include desktop-only {
-        margin-left: 145px;
-      }
     }
   }
   &__title {
