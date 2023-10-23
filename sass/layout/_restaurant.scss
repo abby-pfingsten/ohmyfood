@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
   }
-  &__restaurant-choice {
+  &__restaurantChoice {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5%;
     width: 95%;
@@ -18,7 +18,7 @@
       height: 40%;
       margin-right: 20px;
     }
-    &--test {
+    &--div {
       display: flex;
       flex-direction: row;
     }
@@ -52,5 +52,9 @@
         margin-left: 145px;
       }
     }
+  }
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 }

@@ -151,53 +151,57 @@ body {
     flex-direction: row;
   }
 }
-.restaurant__restaurant-choice {
+.restaurant__restaurantChoice {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5%;
   width: 95%;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 970px) {
-  .restaurant__restaurant-choice {
+  .restaurant__restaurantChoice {
     height: 40%;
     margin-right: 20px;
   }
 }
-.restaurant__restaurant-choice--test {
+.restaurant__restaurantChoice--div {
   display: flex;
   flex-direction: row;
 }
-.restaurant__restaurant-choice--card {
+.restaurant__restaurantChoice--card {
   text-decoration: none;
   color: black;
 }
-.restaurant__restaurant-choice--img {
+.restaurant__restaurantChoice--img {
   width: 100%;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
 }
-.restaurant__restaurant-choice--title {
+.restaurant__restaurantChoice--title {
   text-decoration: none;
   padding-left: 9px;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-.restaurant__restaurant-choice--city {
+.restaurant__restaurantChoice--city {
   text-decoration: none;
   padding-left: 10px;
   padding-bottom: 10px;
   font-size: 12px;
 }
-.restaurant__restaurant-choice--icon {
+.restaurant__restaurantChoice--icon {
   margin-left: 175px;
   font-size: 25px;
   margin-top: 9px;
   border-width: 2px;
 }
 @media screen and (min-width: 970px) {
-  .restaurant__restaurant-choice--icon {
+  .restaurant__restaurantChoice--icon {
     margin-left: 145px;
   }
+}
+.restaurant__title {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .footer {
