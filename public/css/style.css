@@ -156,6 +156,8 @@ body {
   border-radius: 5%;
   width: 95%;
   margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
 }
 @media screen and (min-width: 970px) {
   .restaurant__restaurantChoice {

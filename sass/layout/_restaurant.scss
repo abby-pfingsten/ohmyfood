@@ -14,6 +14,8 @@
     border-radius: 5%;
     width: 95%;
     margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
     @include desktop-only {
       height: 40%;
       margin-right: 20px;
