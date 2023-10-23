@@ -8,6 +8,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  //   why doesn't gap work?
   &__links {
     list-style-type: none;
     padding-bottom: 20px;
@@ -16,13 +17,16 @@
     flex-direction: column;
     justify-content: space-between;
     li {
-      margin-bottom: 5px;
+      margin-bottom: 8px;
       color: white;
       text-decoration: none;
     }
     a {
       color: white;
       text-decoration: none;
+    }
+    i {
+      padding-right: 5px;
     }
   }
 }

@@ -220,13 +220,16 @@ body {
   justify-content: space-between;
 }
 .footer__links li {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   color: white;
   text-decoration: none;
 }
 .footer__links a {
   color: white;
   text-decoration: none;
+}
+.footer__links i {
+  padding-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
