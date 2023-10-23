@@ -15,19 +15,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    &--suggest {
+    li {
+      margin-bottom: 5px;
       color: white;
       text-decoration: none;
     }
-    &--partner {
-      color: white;
-      text-decoration: none;
-    }
-    &--legal {
-      color: white;
-      text-decoration: none;
-    }
-    &--contact {
+    a {
       color: white;
       text-decoration: none;
     }

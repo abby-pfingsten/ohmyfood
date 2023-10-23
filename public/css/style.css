@@ -219,19 +219,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.footer__links--suggest {
+.footer__links li {
+  margin-bottom: 5px;
   color: white;
   text-decoration: none;
 }
-.footer__links--partner {
-  color: white;
-  text-decoration: none;
-}
-.footer__links--legal {
-  color: white;
-  text-decoration: none;
-}
-.footer__links--contact {
+.footer__links a {
   color: white;
   text-decoration: none;
 }
