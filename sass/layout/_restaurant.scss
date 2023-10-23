@@ -45,8 +45,18 @@
       margin-top: 15px;
       margin-right: 25px;
       font-size: 20px;
+      border: none;
       &:hover {
-        color: red;
+        background: linear-gradient(
+          to bottom right,
+          $colour-secondary,
+          $colour-primary
+        );
+        color: linear-gradient(
+          to bottom right,
+          $colour-secondary,
+          $colour-primary
+        );
       }
     }
   }
