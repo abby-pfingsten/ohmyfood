@@ -20,6 +20,7 @@
       height: 40%;
       margin-right: 20px;
     }
+    // position the heart and city/name text evenly
     &--div {
       display: flex;
       flex-direction: row;
@@ -33,7 +34,7 @@
     &--title {
       padding-left: 9px;
       padding-bottom: 5px;
-      padding-top: 5px;
+      padding-top: 10px;
     }
     &--city {
       padding-left: 10px;
@@ -41,9 +42,12 @@
       font-size: 12px;
     }
     &--icon {
+      margin-top: 15px;
       margin-right: 25px;
       font-size: 20px;
-      margin-top: 9px;
+      &:hover {
+        color: red;
+      }
     }
   }
   &__title {
