@@ -84,6 +84,10 @@ body {
   text-decoration: none;
   color: white;
 }
+.nav__bttn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(to bottom right, #ff83dd, #985ede);
+}
 
 .instructions {
   margin-left: 20px;
