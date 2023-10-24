@@ -34,14 +34,14 @@ body {
   }
 }
 .header__location {
-  width: 94%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
   font-size: 15px;
   background-color: #E5E4E2;
-  padding: 15px 10px;
+  padding: 15px 0px 15px 0px;
 }
 @media screen and (min-width: 970px) {
   .header__location {
@@ -196,7 +196,7 @@ body {
 }
 .restaurant__restaurantChoice--city {
   padding-left: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   font-size: 12px;
 }
 .restaurant__restaurantChoice--icon {
