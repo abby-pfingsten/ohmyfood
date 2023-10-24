@@ -165,11 +165,6 @@ body {
     margin-right: 20px;
   }
 }
-.restaurant__restaurantChoice--div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .restaurant__restaurantChoice--new {
   position: relative;
   left: 270px;
@@ -182,6 +177,11 @@ body {
   border-radius: 5%;
   font-size: 12px;
   font-weight: bold;
+}
+.restaurant__restaurantChoice--div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .restaurant__restaurantChoice--img {
   max-width: 100%;
