@@ -34,6 +34,7 @@ $font-size-for-instructions: 15px;
       left: 80px;
     }
   }
+  // has to be better way to do this
   &__step--text {
     width: 75%;
     border-radius: 20px;
@@ -43,6 +44,7 @@ $font-size-for-instructions: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
+
   &__step--icon {
     margin-left: -10px;
     margin-right: 20px;

@@ -26,8 +26,22 @@
       flex-direction: row;
       justify-content: space-between;
     }
+    &--new {
+      position: relative;
+      left: 270px;
+      top: 45px;
+      text-align: center;
+      width: 20%;
+      padding: 8px 0px 8px 0px;
+      background-color: darken($colour-tertiary, 10%);
+      color: darken($colour-tertiary, 50%);
+      border-radius: 5%;
+      font-size: 12px;
+      font-weight: bold;
+    }
     &--img {
-      width: 100%;
+      max-width: 100%;
+      height: auto;
       border-top-right-radius: 5%;
       border-top-left-radius: 5%;
     }
