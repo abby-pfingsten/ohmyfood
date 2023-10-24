@@ -178,6 +178,13 @@ body {
   font-size: 12px;
   font-weight: bold;
 }
+@media screen and (min-width: 970px) {
+  .restaurant__restaurantChoice--new {
+    left: 260px;
+    top: 10px;
+    height: 20%;
+  }
+}
 .restaurant__restaurantChoice--div {
   display: flex;
   flex-direction: row;
