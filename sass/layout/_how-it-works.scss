@@ -44,7 +44,7 @@ $font-size-for-instructions: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
   }
-  &__step--textP {
+  &__step--textPurple {
     width: 75%;
     border-radius: 20px;
     padding: 20px 40px;
@@ -59,7 +59,7 @@ $font-size-for-instructions: 15px;
     margin-right: 20px;
     color: darken($dark-gray, 45%);
   }
-  &__step--iconP {
+  &__step--iconPurple {
     margin-left: -10px;
     margin-right: 20px;
     color: darken($colour-primary, 5%);

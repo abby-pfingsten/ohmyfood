@@ -137,7 +137,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
-.instructions__step--textP {
+.instructions__step--textPurple {
   width: 75%;
   border-radius: 20px;
   padding: 20px 40px;
@@ -151,7 +151,7 @@ body {
   margin-right: 20px;
   color: #77736b;
 }
-.instructions__step--iconP {
+.instructions__step--iconPurple {
   margin-left: -10px;
   margin-right: 20px;
   color: #8641d8;
@@ -232,13 +232,14 @@ body {
   border: none;
   background-clip: content-box;
 }
-.restaurant__restaurantChoice--icons--full {
-  opacity: 0;
-}
 .restaurant__restaurantChoice--icons:hover {
   color: red;
 }
-.restaurant__restaurantChoice--icons:hover--full {
+.restaurant__restaurantChoice--full {
+  position: absolute;
+  top: -3px;
+}
+.restaurant__restaurantChoice--full:hover {
   opacity: 1;
 }
 
