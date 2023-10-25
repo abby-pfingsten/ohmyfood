@@ -137,10 +137,24 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
+.instructions__step--textP {
+  width: 75%;
+  border-radius: 20px;
+  padding: 20px 40px;
+  background-color: #ece1f9;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
 .instructions__step--icon {
   margin-left: -10px;
   margin-right: 20px;
   color: #77736b;
+}
+.instructions__step--iconP {
+  margin-left: -10px;
+  margin-right: 20px;
+  color: #8641d8;
 }
 
 .restaurant {
