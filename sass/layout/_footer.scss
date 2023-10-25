@@ -1,0 +1,32 @@
+.footer {
+  background-color: darken(darkgray, 40%);
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  &__title {
+    font-family: "Shrikhand";
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  //   why doesn't gap work?
+  &__links {
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    li {
+      margin-bottom: 8px;
+      color: white;
+      text-decoration: none;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    i {
+      padding-right: 5px;
+    }
+  }
+}

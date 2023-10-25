@@ -1,0 +1,88 @@
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  background-color: $lighter-gray;
+  padding-top: 20px;
+  padding-left: 20px;
+  //    how do I get restaurants on separate header
+  @include desktop-only {
+    display: flex;
+    flex-direction: row;
+  }
+  &__restaurantChoice {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    width: 95%;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    @include desktop-only {
+      height: 40%;
+      margin-right: 20px;
+    }
+    // causing desktop spacing to be weird and doesn't 
+    // quite work as expected
+    &--new {
+      position: relative;
+      left: 270px;
+      top: 45px;
+      text-align: center;
+      width: 20%;
+      padding: 8px 0px 8px 0px;
+      background-color: darken($colour-tertiary, 10%);
+      color: darken($colour-tertiary, 50%);
+      border-radius: 5%;
+      font-size: 12px;
+      font-weight: bold;
+      @include desktop-only {
+        left: 260px;
+        top: 10px;
+        height: 20%;
+      }
+    }
+    // position the heart and city/name text evenly
+    &--div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &--img {
+      max-width: 100%;
+      height: auto;
+      border-top-right-radius: 5%;
+      border-top-left-radius: 5%;
+    }
+    &--title {
+      padding-left: 9px;
+      padding-bottom: 5px;
+      padding-top: 10px;
+    }
+    &--city {
+      padding-left: 10px;
+      padding-bottom: 15px;
+      font-size: 12px;
+    }
+    &--icon {
+      margin-top: 15px;
+      margin-right: 25px;
+      font-size: 20px;
+      border: none;
+      &:hover {
+        background: linear-gradient(
+          to bottom right,
+          $colour-secondary,
+          $colour-primary
+        );
+        color: linear-gradient(
+          to bottom right,
+          $colour-secondary,
+          $colour-primary
+        );
+      }
+    }
+  }
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
