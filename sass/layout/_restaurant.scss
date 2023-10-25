@@ -20,11 +20,11 @@
       height: 40%;
       margin-right: 20px;
     }
-    // causing desktop spacing to be weird and doesn't 
+    // causing desktop spacing to be weird and doesn't
     // quite work as expected
     &--new {
       position: relative;
-      left: 270px;
+      left: 260px;
       top: 45px;
       text-align: center;
       width: 20%;
@@ -62,27 +62,26 @@
       padding-bottom: 15px;
       font-size: 12px;
     }
-    &--icon {
+    &--icons {
       margin-top: 15px;
       margin-right: 25px;
       font-size: 20px;
       border: none;
+      background-clip: content-box;
+      &--full {
+        opacity: 0;
+      }
       &:hover {
-        background: linear-gradient(
-          to bottom right,
-          $colour-secondary,
-          $colour-primary
-        );
-        color: linear-gradient(
-          to bottom right,
-          $colour-secondary,
-          $colour-primary
-        );
+        &--full {
+          opacity: 1;
+        }
+        color: red;
       }
     }
   }
-  &__title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
+  // TODO: title is off because of p tag
+  // &__title {
+  //   margin-top: 30px;
+  //   margin-bottom: 20px;
+  // }
 }
