@@ -1,7 +1,7 @@
 .restaurant {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
   background-color: $lighter-gray;
   padding-top: 20px;
   padding-left: 20px;
@@ -84,6 +84,9 @@
     &--empty {
       position: absolute;
     }
+  }
+  &__lastRestaurantChoice {
+    margin-bottom: 50px;
   }
   // TODO: title is off because of p tag
   // &__title {

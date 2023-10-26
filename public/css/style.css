@@ -151,7 +151,7 @@ body {
 .restaurant {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 25px;
   background-color: #f1f1ef;
   padding-top: 20px;
   padding-left: 20px;
@@ -237,6 +237,9 @@ body {
 }
 .restaurant__restaurantChoice--empty {
   position: absolute;
+}
+.restaurant__lastRestaurantChoice {
+  margin-bottom: 50px;
 }
 
 .footer {
