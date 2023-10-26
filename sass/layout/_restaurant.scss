@@ -26,7 +26,7 @@
     &--new {
       position: absolute;
       right: 26px;
-      top: 35px;
+      top: 20px;
       text-align: center;
       width: 20%;
       padding: 8px 0px 8px 0px;
@@ -36,9 +36,8 @@
       font-size: 12px;
       font-weight: bold;
       @include desktop-only {
-        left: 260px;
+        right: 20px;
         top: 10px;
-        height: 20%;
       }
     }
     // position the heart and city/name text evenly

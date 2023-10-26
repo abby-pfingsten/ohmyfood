@@ -179,7 +179,7 @@ body {
 .restaurant__restaurantChoice--new {
   position: absolute;
   right: 26px;
-  top: 35px;
+  top: 20px;
   text-align: center;
   width: 20%;
   padding: 8px 0px 8px 0px;
@@ -191,9 +191,8 @@ body {
 }
 @media screen and (min-width: 970px) {
   .restaurant__restaurantChoice--new {
-    left: 260px;
+    right: 20px;
     top: 10px;
-    height: 20%;
   }
 }
 .restaurant__restaurantChoice--div {
