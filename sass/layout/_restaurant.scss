@@ -65,12 +65,13 @@
     }
     &--icons {
       margin-top: 15px;
-      margin-right: 25px;
+      margin-right: 35px;
       font-size: 20px;
       border: none;
       background-clip: content-box;
+      transition: color 500ms;
       &:hover {
-        color: red;
+        color: $colour-primary;
       }
     }
     &--full {

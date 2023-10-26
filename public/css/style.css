@@ -219,13 +219,14 @@ body {
 }
 .restaurant__restaurantChoice--icons {
   margin-top: 15px;
-  margin-right: 25px;
+  margin-right: 35px;
   font-size: 20px;
   border: none;
   background-clip: content-box;
+  transition: color 500ms;
 }
 .restaurant__restaurantChoice--icons:hover {
-  color: red;
+  color: #9356DC;
 }
 .restaurant__restaurantChoice--full {
   opacity: 0;
