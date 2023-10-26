@@ -74,10 +74,12 @@
     }
     &--full {
       position: absolute;
-      top: -3px;
       &:hover {
         opacity: 1;
       }
+    }
+    &--empty {
+      position: absolute;
     }
   }
   // TODO: title is off because of p tag

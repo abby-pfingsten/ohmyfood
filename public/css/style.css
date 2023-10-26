@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Roboto" "Shirkhand";
+  font-family: "Roboto", "Shirkhand";
 }
 
 .header {
@@ -237,10 +237,12 @@ body {
 }
 .restaurant__restaurantChoice--full {
   position: absolute;
-  top: -3px;
 }
 .restaurant__restaurantChoice--full:hover {
   opacity: 1;
+}
+.restaurant__restaurantChoice--empty {
+  position: absolute;
 }
 
 .footer {
