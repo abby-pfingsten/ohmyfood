@@ -64,8 +64,7 @@ body {
 }
 .nav p {
   font-size: 15px;
-  margin-left: 40px;
-  margin-right: 40px;
+  color: #848077;
   text-align: center;
 }
 @media screen and (min-width: 970px) {
@@ -152,6 +151,7 @@ body {
 .restaurant {
   display: flex;
   flex-direction: column;
+  gap: 15px;
   background-color: #f1f1ef;
   padding-top: 20px;
   padding-left: 20px;
@@ -163,10 +163,10 @@ body {
   }
 }
 .restaurant__restaurantChoice {
+  position: relative;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5%;
   width: 95%;
-  margin-bottom: 20px;
   text-decoration: none;
   color: black;
 }
@@ -177,9 +177,9 @@ body {
   }
 }
 .restaurant__restaurantChoice--new {
-  position: relative;
-  left: 260px;
-  top: 45px;
+  position: absolute;
+  right: 26px;
+  top: 35px;
   text-align: center;
   width: 20%;
   padding: 8px 0px 8px 0px;
@@ -202,8 +202,9 @@ body {
   justify-content: space-between;
 }
 .restaurant__restaurantChoice--img {
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
 }
@@ -228,6 +229,7 @@ body {
   color: red;
 }
 .restaurant__restaurantChoice--full {
+  opacity: 0;
   position: absolute;
 }
 .restaurant__restaurantChoice--full:hover {
