@@ -231,8 +231,10 @@ body {
 .restaurant__restaurantChoice--full {
   opacity: 0;
   position: absolute;
+  transition: color 500ms;
 }
 .restaurant__restaurantChoice--full:hover {
+  color: #9356DC;
   opacity: 1;
 }
 .restaurant__restaurantChoice--empty {
