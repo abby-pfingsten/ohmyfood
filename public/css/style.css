@@ -11,7 +11,7 @@
 }
 .progress__bar {
   border: 8px solid #f3f3f3;
-  border-top: 8px solid #3498db;
+  border-top: 8px solid #9356DC;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -25,35 +25,6 @@
   animation: content 0ms 2000ms both;
 }
 
-@keyframes container {
-  0% {
-    transform: translateX(-9999px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes progress-bar {
-  0% {
-    transform: scaleX(0);
-    opacity: 0.1;
-  }
-  17% {
-    transform: scaleX(0.18);
-  }
-  24% {
-    transform: scaleX(0.4);
-  }
-  46% {
-    transform: scaleX(0.81);
-  }
-  85%, 100% {
-    opacity: 1;
-  }
-  100% {
-    transform: scaleX(1);
-  }
-}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
