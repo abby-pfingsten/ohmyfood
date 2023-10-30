@@ -42,4 +42,9 @@ $nav-st-font-size: 15px;
       );
     }
   }
+  @include desktop-only {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  }
 }

@@ -153,6 +153,13 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   background-image: linear-gradient(to bottom right, #ff83dd, #985ede);
 }
+@media screen and (min-width: 970px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  }
+}
 
 .instructions {
   margin-left: 20px;
@@ -187,11 +194,6 @@ body {
   left: -8px;
   font-size: 12px;
 }
-@media screen and (min-width: 970px) {
-  .instructions__step--number {
-    left: 80px;
-  }
-}
 .instructions__step--text {
   width: 75%;
   border-radius: 20px;
@@ -204,6 +206,11 @@ body {
 .instructions__step--textPurple {
   background-color: #ece1f9;
 }
+@media screen and (min-width: 970px) {
+  .instructions__step--textPurple {
+    margin-right: 20px;
+  }
+}
 .instructions__step--icon {
   margin-left: -10px;
   margin-right: 20px;
@@ -211,6 +218,14 @@ body {
 }
 .instructions__step--iconPurple {
   color: #8641d8;
+}
+@media screen and (min-width: 970px) {
+  .instructions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
 }
 
 .restaurant {

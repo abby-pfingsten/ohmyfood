@@ -31,7 +31,7 @@ $font-size-for-instructions: 15px;
     left: -8px;
     font-size: 12px;
     @include desktop-only {
-      left: 80px;
+      // left: 80px;
     }
   }
   // has to be better way to do this
@@ -46,6 +46,9 @@ $font-size-for-instructions: 15px;
   }
   &__step--textPurple {
     background-color: lighten($colour-primary, 33%);
+    @include desktop-only {
+      margin-right: 20px;
+    }
   }
 
   &__step--icon {
@@ -55,5 +58,11 @@ $font-size-for-instructions: 15px;
   }
   &__step--iconPurple {
     color: darken($colour-primary, 5%);
+  }
+  @include desktop-only {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
   }
 }
