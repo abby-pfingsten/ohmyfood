@@ -7,12 +7,24 @@
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  animation: spin 2s linear infinite, fadeOut 1s 3s forwards;
+  animation: spin 2s linear infinite, fadeOut 1s 3s both;
 }
 .progress__bar::after {
   opacity: 1;
 }
 
+.container {
+  animation: content 0ms 2000ms both;
+}
+
+@keyframes container {
+  0% {
+    transform: translateX(-9999px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 @keyframes progress-bar {
   0% {
     transform: scaleX(0);
