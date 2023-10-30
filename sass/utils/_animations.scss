@@ -1,9 +1,19 @@
 .progress {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1000;
+  background: rgb(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeOut 0s 3s both;
+
   &__bar {
     // display: none;
-    position: relative;
-    top: 400px;
-    left: 150px;
+    // position: relative;
+    // top: 400px;
+    // left: 150px;
     border: 8px solid #f3f3f3;
     border-top: 8px solid #3498db;
     border-radius: 50%;
@@ -11,7 +21,7 @@
     height: 50px;
     // animation: progress-bar 1000ms 150ms both;
 
-    animation: spin 2s linear infinite, fadeOut 1s 3s both;
+    animation: spin 2s linear infinite;
     // animation: progress-bar 1000ms;
   }
   &__bar::after {
@@ -20,10 +30,9 @@
 }
 
 .container {
-//   opacity: 0;
+  //   opacity: 0;
   animation: content 0ms 2000ms both;
 }
-
 
 @keyframes container {
   0% {
@@ -72,6 +81,7 @@
   100% {
     opacity: 0;
     display: none;
+    transform: scale(0);
   }
 }
 
