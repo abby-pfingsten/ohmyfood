@@ -27,13 +27,16 @@
     }
   }
   &__dish-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__dish-list span {
     border-radius: 15px;
     padding: 10px;
     font-size: 13px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  }
-  &__dish-list span {
     list-style-type: none;
   }
   &__dish {
@@ -42,7 +45,10 @@
     &--div {
       display: flex;
       flex-direction: row;
-      gap: 170px;
+      justify-content: space-between;
+    }
+    &--price {
+      font-weight: bold;
     }
   }
 }
