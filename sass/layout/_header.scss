@@ -7,7 +7,7 @@ $margins: (
   flex-direction: column;
   align-items: center;
   width: 100%;
-  > img {
+  &__image {
     width: 50%;
     margin: map-get($margins, header-side);
   }
@@ -15,7 +15,7 @@ $margins: (
   @include desktop-only {
     display: flex;
     align-items: center;
-    > img {
+    &__image {
       width: 20%;
     }
   }
@@ -41,7 +41,7 @@ $margins: (
     }
   }
 
-  &__location-rest-pages {
-    display: none;
+  &__restaurant-image {
+    width: 50%;
   }
 }

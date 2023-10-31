@@ -65,7 +65,7 @@ body {
   align-items: center;
   width: 100%;
 }
-.header > img {
+.header__image {
   width: 50%;
   margin: 20px;
 }
@@ -74,7 +74,7 @@ body {
     display: flex;
     align-items: center;
   }
-  .header > img {
+  .header__image {
     width: 20%;
   }
 }
@@ -99,8 +99,8 @@ body {
 .header__location--text-rest-pages {
   display: none;
 }
-.header__location-rest-pages {
-  display: none;
+.header__restaurant-image {
+  width: 50%;
 }
 
 .nav {
