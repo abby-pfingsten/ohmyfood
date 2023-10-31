@@ -345,11 +345,14 @@ body {
 .menu {
   position: relative;
   background-color: #f1f1ef;
-  z-index: 1000;
+  z-index: 1;
+  padding: 20px 10px 5px 10px;
 }
 .menu__title {
-  margin-top: -80px;
   border-top-left-radius: 15%;
+}
+.menu__dish-list span {
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */
