@@ -367,13 +367,23 @@ body {
   width: 30px;
 }
 .menu__dish-list {
-  border: solid;
   border-radius: 15px;
-  padding: 5px;
+  padding: 10px;
   font-size: 13px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 .menu__dish-list span {
   list-style-type: none;
+}
+.menu__dish {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.menu__dish--div {
+  display: flex;
+  flex-direction: row;
+  gap: 170px;
 }
 
 /*# sourceMappingURL=style.css.map */
