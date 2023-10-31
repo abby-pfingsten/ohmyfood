@@ -342,4 +342,14 @@ body {
   padding-right: 5px;
 }
 
+.menu {
+  position: relative;
+  background-color: #f1f1ef;
+  z-index: 1000;
+}
+.menu__title {
+  margin-top: -80px;
+  border-top-left-radius: 15%;
+}
+
 /*# sourceMappingURL=style.css.map */

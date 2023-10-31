@@ -1,0 +1,9 @@
+.menu {
+  position: relative;
+  background-color: $lighter-gray;
+  z-index: 1000;
+  &__title {
+    margin-top: -80px;
+    border-top-left-radius: 15%;
+  }
+}
