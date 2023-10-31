@@ -43,5 +43,11 @@ $margins: (
 
   &__restaurant-image {
     width: 100%;
+    @include desktop-only {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      flex-basis: 30%;
+    }
   }
 }

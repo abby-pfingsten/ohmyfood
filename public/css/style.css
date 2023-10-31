@@ -102,6 +102,14 @@ body {
 .header__restaurant-image {
   width: 100%;
 }
+@media screen and (min-width: 970px) {
+  .header__restaurant-image {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-basis: 30%;
+  }
+}
 
 .nav {
   background-color: #f1f1ef;
@@ -358,6 +366,7 @@ body {
 .menu__section {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 .menu__section--title {
   color: #413f3a;
