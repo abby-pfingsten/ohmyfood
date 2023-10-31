@@ -35,5 +35,13 @@ $margins: (
     &--text {
       margin-left: 10px;
     }
+
+    &--text-rest-pages {
+      display: none;
+    }
+  }
+
+  &__location-rest-pages {
+    display: none;
   }
 }

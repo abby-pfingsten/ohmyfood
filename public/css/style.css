@@ -96,6 +96,12 @@ body {
 .header__location--text {
   margin-left: 10px;
 }
+.header__location--text-rest-pages {
+  display: none;
+}
+.header__location-rest-pages {
+  display: none;
+}
 
 .nav {
   background-color: #f1f1ef;
