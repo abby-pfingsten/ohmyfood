@@ -346,10 +346,18 @@ body {
   position: relative;
   background-color: #f1f1ef;
   z-index: 1;
-  padding: 20px 10px 5px 10px;
+  padding: 40px 10px 5px 10px;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
 }
 .menu__title {
-  border-top-left-radius: 15%;
+  font-family: "Shrikhand";
+  font-size: 29px;
+  padding-bottom: 20px;
+}
+.menu__section--title {
+  color: #413f3a;
+  font-weight: lighter;
 }
 .menu__dish-list span {
   list-style-type: none;
