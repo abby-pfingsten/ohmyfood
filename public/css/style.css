@@ -355,6 +355,10 @@ body {
   font-size: 25px;
   padding-bottom: 20px;
 }
+.menu__section {
+  display: flex;
+  flex-direction: column;
+}
 .menu__section--title {
   color: #413f3a;
   font-weight: lighter;

@@ -13,6 +13,8 @@
     // margin-top: -80px;
   }
   &__section {
+    display: flex;
+    flex-direction: column;
     &--title {
       color: darken($dark-gray, 65%);
       font-weight: lighter;
