@@ -66,19 +66,37 @@
       margin-right: 35px;
       font-size: 20px;
       border: none;
-      background-clip: content-box;
-      transition: color 500ms;
-      &:hover {
-        color: $colour-primary;
-      }
+      // transition: opacity 500ms;
+      // &:hover {
+      //   background: linear-gradient(
+      //     to bottom right,
+      //     $colour-secondary,
+      //     $colour-primary
+      //   );
+      // }
     }
     &--full {
       opacity: 0;
       position: absolute;
-      transition: color 500ms;
+      transition: opacity 500ms;
+      background: linear-gradient(
+        to bottom right,
+        $colour-secondary,
+        $colour-primary
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
 
       &:hover {
-        color: $colour-primary;
+        // background-clip: text;
+        // -webkit-background-clip: text;
+        // color: transparent;
+        // background: linear-gradient(
+        //   to bottom right,
+        //   $colour-secondary,
+        //   $colour-primary
+        // );
         opacity: 1;
       }
     }

@@ -289,19 +289,17 @@ body {
   margin-right: 35px;
   font-size: 20px;
   border: none;
-  background-clip: content-box;
-  transition: color 500ms;
-}
-.restaurant__restaurantChoice--icons:hover {
-  color: #9356DC;
 }
 .restaurant__restaurantChoice--full {
   opacity: 0;
   position: absolute;
-  transition: color 500ms;
+  transition: opacity 500ms;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .restaurant__restaurantChoice--full:hover {
-  color: #9356DC;
   opacity: 1;
 }
 .restaurant__restaurantChoice--empty {
