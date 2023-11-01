@@ -3,7 +3,7 @@
   height: 100vh;
   position: fixed;
   z-index: 1000;
-  background: rgb(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,14 +17,14 @@
     height: 50px;
     animation: spin 2s linear infinite;
   }
-  &__bar::after {
-    opacity: 1;
-  }
+  // &__bar::after {
+  //   opacity: 1;
+  // }
 }
 
-.container {
-  animation: content 0ms 2000ms both;
-}
+// .container {
+//   animation: content 0ms 2000ms both;
+// }
 
 @keyframes spin {
   0% {
