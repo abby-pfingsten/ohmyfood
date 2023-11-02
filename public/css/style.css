@@ -348,6 +348,7 @@ body {
   padding: 40px 10px 5px 10px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  top: -50px;
 }
 .menu__title-heart {
   display: flex;
@@ -380,23 +381,22 @@ body {
   margin-bottom: 10px;
   padding-bottom: 5px;
   width: 30px;
+  white-space: nowrap;
 }
 .menu__dish-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.menu__dish-list span {
+.menu__dish {
+  font-weight: bold;
+  padding-bottom: 5px;
   border-radius: 15px;
   padding: 10px;
   font-size: 13px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   list-style-type: none;
-}
-.menu__dish {
-  font-weight: bold;
-  padding-bottom: 5px;
 }
 .menu__dish--div {
   display: flex;

@@ -5,6 +5,7 @@
   padding: 40px 10px 5px 10px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  top: -50px;
   &__title-heart {
     display: flex;
     flex-direction: row;
@@ -13,8 +14,6 @@
       font-family: "Shrikhand";
       font-size: 25px;
       padding-bottom: 20px;
-      // TODO figure out this
-      // margin-top: -80px;
     }
     &--heart {
       position: relative;
@@ -27,10 +26,6 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-    // @include desktop-only {
-    //   display: flex;
-    //   flex-direction: row;
-    // }
     &--title {
       color: darken($dark-gray, 65%);
       font-weight: lighter;
@@ -40,9 +35,8 @@
       border-top-style: none;
       margin-bottom: 10px;
       padding-bottom: 5px;
-      //   TOOD: why is this changing name of the restaurant and
-      //    what to do with main dish
       width: 30px;
+      white-space: nowrap;
     }
   }
   &__dish-list {
@@ -50,17 +44,16 @@
     flex-direction: column;
     gap: 10px;
   }
-  &__dish-list span {
+  &__dish {
+    font-weight: bold;
+    padding-bottom: 5px;
     border-radius: 15px;
     padding: 10px;
     font-size: 13px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     list-style-type: none;
-  }
-  &__dish {
-    font-weight: bold;
-    padding-bottom: 5px;
+
     &--div {
       display: flex;
       flex-direction: row;
