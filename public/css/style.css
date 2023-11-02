@@ -168,6 +168,13 @@ body {
     justify-content: center;
   }
 }
+@media screen and (min-width: ) {
+  .instructions__step {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
 .instructions__step--number {
   margin-right: 0px;
   align-self: center;
@@ -403,6 +410,7 @@ body {
   font-weight: bold;
 }
 .menu__dish--div {
+  padding-top: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

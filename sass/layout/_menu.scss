@@ -55,9 +55,10 @@
     a {
       text-decoration: none;
       color: black;
-        font-weight: bold;
+      font-weight: bold;
     }
     &--div {
+      padding-top: 5px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
