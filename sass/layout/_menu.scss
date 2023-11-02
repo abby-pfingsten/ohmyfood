@@ -6,6 +6,7 @@
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   top: -50px;
+  margin-bottom: -50px;
   @include desktop-only {
     display: flex;
     flex-direction: row;

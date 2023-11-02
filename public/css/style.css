@@ -369,6 +369,7 @@ body {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   top: -50px;
+  margin-bottom: -50px;
 }
 @media screen and (min-width: 970px) {
   .menu {
