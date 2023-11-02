@@ -29,7 +29,7 @@
       right: 10px;
       font-size: 25px;
       @include desktop-only {
-        margin-left: 20px;
+        margin-left: 50px;
         margin-top: 5px;
       }
     }
@@ -78,6 +78,36 @@
     }
     &--price {
       font-weight: bold;
+    }
+  }
+  &__button {
+    width: 40%;
+    margin-left: 70px;
+    text-align: center;
+    font-size: $nav-st-font-size;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 35px;
+    padding: 15px 25px;
+    background-image: linear-gradient(
+      to bottom right,
+      $colour-secondary,
+      $colour-primary
+    );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: white;
+    transition: all 450ms;
+    h2 {
+      font-size: 15px;
+    }
+    &:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+      background-image: linear-gradient(
+        to bottom right,
+        lighten($colour-secondary, 2%),
+        lighten($colour-primary, 2%)
+      );
     }
   }
 }

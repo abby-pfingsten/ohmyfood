@@ -70,22 +70,18 @@ body {
   position: relative;
   font-size: 20px;
   top: 28px;
-  right: 10px;
+  left: 10px;
   text-decoration: none;
   color: black;
+}
+@media screen and (min-width: 970px) {
+  .header__arrow-image a {
+    left: -440px;
+  }
 }
 .header__image {
   width: 50%;
   margin: 20px;
-}
-@media screen and (min-width: 970px) {
-  .header {
-    display: flex;
-    align-items: center;
-  }
-  .header a {
-    right: 440px;
-  }
 }
 .header__location {
   width: 100%;
@@ -404,7 +400,7 @@ body {
 }
 @media screen and (min-width: 970px) {
   .menu__title-heart--heart {
-    margin-left: 20px;
+    margin-left: 50px;
     margin-top: 5px;
   }
 }
@@ -453,6 +449,28 @@ body {
 }
 .menu__dish--price {
   font-weight: bold;
+}
+.menu__button {
+  width: 40%;
+  margin-left: 70px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border-radius: 35px;
+  padding: 15px 25px;
+  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: white;
+  transition: all 450ms;
+}
+.menu__button h2 {
+  font-size: 15px;
+}
+.menu__button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  background-image: linear-gradient(to bottom right, #ff83dd, #985ede);
 }
 
 /*# sourceMappingURL=style.css.map */
