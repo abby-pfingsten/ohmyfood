@@ -389,7 +389,6 @@ body {
   gap: 10px;
 }
 .menu__dish {
-  font-weight: bold;
   padding-bottom: 5px;
   border-radius: 15px;
   padding: 10px;
@@ -398,10 +397,16 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   list-style-type: none;
 }
+.menu__dish a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 .menu__dish--div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-weight: lighter;
 }
 .menu__dish--price {
   font-weight: bold;
