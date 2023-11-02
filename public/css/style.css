@@ -58,6 +58,22 @@ body {
   align-items: center;
   width: 100%;
 }
+.header__arrow-image {
+  display: flex;
+  flex-direction: row;
+}
+.header__arrow-image img {
+  position: relative;
+  left: 60px;
+}
+.header__arrow-image a {
+  position: relative;
+  font-size: 20px;
+  top: 28px;
+  left: 20px;
+  text-decoration: none;
+  color: black;
+}
 .header__image {
   width: 50%;
   margin: 20px;
@@ -93,6 +109,7 @@ body {
   display: none;
 }
 .header__restaurant-image {
+  display: block;
   width: 100%;
 }
 @media screen and (min-width: 970px) {
