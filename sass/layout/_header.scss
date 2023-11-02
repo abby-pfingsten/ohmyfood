@@ -18,22 +18,20 @@ $margins: (
       position: relative;
       font-size: 20px;
       top: 28px;
-      left: 20px;
+      right: 10px;
       text-decoration: none;
       color: black;
     }
   }
   &__image {
-    // display: flex;
-    // flex-direction: row;
     width: 50%;
     margin: map-get($margins, header-side);
   }
   @include desktop-only {
     display: flex;
     align-items: center;
-    &__image {
-      width: 20%;
+    a {
+      right: 440px;
     }
   }
   &__location {
@@ -64,7 +62,7 @@ $margins: (
     @include desktop-only {
       display: flex;
       flex-direction: column;
-      width: 50%;
+      width: 100%;
       flex-basis: 30%;
     }
   }
