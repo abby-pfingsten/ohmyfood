@@ -469,6 +469,10 @@ body {
 .menu__button h2 {
   font-size: 15px;
 }
+.menu__button a {
+  text-decoration: none;
+  color: white;
+}
 .menu__button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   background-image: linear-gradient(to bottom right, #ff83dd, #985ede);
