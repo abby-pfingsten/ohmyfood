@@ -7,11 +7,6 @@
   border-top-right-radius: 25px;
   top: -50px;
   margin-bottom: -50px;
-  @include desktop-only {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
   &__title-heart {
     display: flex;
     flex-direction: row;
@@ -20,9 +15,6 @@
       font-family: "Shrikhand";
       font-size: 25px;
       padding-bottom: 20px;
-      @include desktop-only {
-        margin-left: -60px;
-      }
     }
     &--heart {
       position: relative;
@@ -114,5 +106,16 @@
         lighten($colour-primary, 2%)
       );
     }
+    @include desktop-only {
+      width: 5%;
+      margin: 0;
+      height: 5%;
+      margin-top: 100px;
+    }
+  }
+  @include desktop-only {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }

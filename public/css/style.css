@@ -371,13 +371,6 @@ body {
   top: -50px;
   margin-bottom: -50px;
 }
-@media screen and (min-width: 970px) {
-  .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-}
 .menu__title-heart {
   display: flex;
   flex-direction: row;
@@ -387,11 +380,6 @@ body {
   font-family: "Shrikhand";
   font-size: 25px;
   padding-bottom: 20px;
-}
-@media screen and (min-width: 970px) {
-  .menu__title-heart--title {
-    margin-left: -60px;
-  }
 }
 .menu__title-heart--heart {
   position: relative;
@@ -476,6 +464,21 @@ body {
 .menu__button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   background-image: linear-gradient(to bottom right, #ff83dd, #985ede);
+}
+@media screen and (min-width: 970px) {
+  .menu__button {
+    width: 5%;
+    margin: 0;
+    height: 5%;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 970px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
