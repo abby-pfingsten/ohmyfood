@@ -54,3 +54,12 @@
     opacity: 1;
   }
 }
+
+@keyframes cat {
+  0% {
+    transform: translateX(-9999px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
