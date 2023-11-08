@@ -36,6 +36,14 @@
     transform: scale(0);
   }
 }
+@keyframes checkmarkFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 *,
 *::after,
 *::before {
@@ -482,6 +490,19 @@ body {
 }
 .menu .checkmark:hover {
   background-color: #00cc00;
+  position: relative;
+}
+.menu .checkmark:hover--green {
+  transform: rotate(0deg);
+}
+.menu .checkmark:hover::after {
+  content: "checkmark";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: rotate(360deg);
+  opacity: 0;
+  animation: checkmarkFadeIn 0.5s ease-in-out forwards;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -45,3 +45,12 @@
     transform: scale(0);
   }
 }
+
+@keyframes checkmarkFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
