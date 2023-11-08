@@ -118,4 +118,10 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+  .checkmark {
+    display: none;
+    &:hover {
+      opacity: 1;
+    }
+  }
 }

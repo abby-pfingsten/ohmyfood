@@ -480,5 +480,11 @@ body {
     justify-content: space-evenly;
   }
 }
+.menu .checkmark {
+  display: none;
+}
+.menu .checkmark:hover {
+  opacity: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
