@@ -119,9 +119,10 @@
     justify-content: space-evenly;
   }
   .checkmark {
-    display: none;
+    // display: none;
     &:hover {
-      opacity: 1;
+      background-color: #00cc00;
+      //   position: relative;
     }
   }
 }
