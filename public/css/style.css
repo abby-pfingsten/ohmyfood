@@ -497,7 +497,7 @@ body {
   }
 }
 .menu .checkmark {
-  width: 100%;
+  display: block;
   background-color: green;
   animation: cat 0ms 0ms;
 }
@@ -506,10 +506,16 @@ body {
   animation: cat 10ms 0ms;
 }
 .menu .checkmark:hover::after {
-  content: "c";
+  right: 10px;
+  opacity: 1;
+}
+.menu .checkmark::after {
+  content: "check";
   position: absolute;
-  transform: rotate(360deg);
-  animation: 0.5s ease-in forwards;
+  right: -20px;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: right 0.3s, opacity 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
