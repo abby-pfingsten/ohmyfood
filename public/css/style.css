@@ -441,6 +441,9 @@ body {
   list-style-type: none;
 }
 .menu__dish a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -454,6 +457,10 @@ body {
 }
 .menu__dish--price {
   font-weight: bold;
+  margin-top: 15px;
+}
+.menu__dish--checkmark {
+  margin-top: 15px;
 }
 .menu__button {
   width: 40%;

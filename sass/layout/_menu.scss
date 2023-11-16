@@ -58,6 +58,9 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     list-style-type: none;
     a {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
       text-decoration: none;
       color: black;
       font-weight: bold;
@@ -71,6 +74,10 @@
     }
     &--price {
       font-weight: bold;
+      margin-top: 15px;
+    }
+    &--checkmark {
+      margin-top: 15px;
     }
   }
   &__button {
