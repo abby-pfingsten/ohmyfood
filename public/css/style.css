@@ -452,6 +452,9 @@ body {
 .menu__dish--title-desc {
   width: 1000%;
 }
+.menu__dish--title-desc:hover {
+  width: 5%;
+}
 .menu__dish--price {
   font-weight: bold;
   margin-top: 15px;
@@ -459,6 +462,12 @@ body {
 .menu__dish--checkmark-div {
   overflow: hidden;
   margin-top: 15px;
+}
+.menu__dish:hover {
+  background-color: pink;
+}
+.menu__dish:hover--title-desc {
+  width: 5%;
 }
 .menu__button {
   width: 40%;

@@ -68,14 +68,10 @@
     }
     &--title-desc {
       width: 1000%;
+      &:hover {
+        width: 5%;
+      }
     }
-    // &--div {
-    //   padding-top: 5px;
-    //   display: flex;
-    //   flex-direction: row;
-    //   justify-content: space-between;
-    //   font-weight: lighter;
-    // }
     &--price {
       font-weight: bold;
       margin-top: 15px;
@@ -83,6 +79,12 @@
     &--checkmark-div {
       overflow: hidden;
       margin-top: 15px;
+    }
+    &:hover {
+      background-color: pink;
+      &--title-desc {
+        width: 5%;
+      }
     }
   }
   &__button {
