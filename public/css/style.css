@@ -432,6 +432,7 @@ body {
   gap: 10px;
 }
 .menu__dish {
+  width: 95%;
   padding-bottom: 5px;
   border-radius: 15px;
   padding: 10px;
@@ -448,18 +449,15 @@ body {
   color: black;
   font-weight: bold;
 }
-.menu__dish--div {
-  padding-top: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-weight: lighter;
+.menu__dish--title-desc {
+  width: 1000%;
 }
 .menu__dish--price {
   font-weight: bold;
   margin-top: 15px;
 }
-.menu__dish--checkmark {
+.menu__dish--checkmark-div {
+  overflow: hidden;
   margin-top: 15px;
 }
 .menu__button {
@@ -502,27 +500,6 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
   }
-}
-.menu .checkmark {
-  display: block;
-  background-color: green;
-  animation: cat 0ms 0ms;
-}
-.menu .checkmark:hover--green {
-  transform: rotate(0deg);
-  animation: cat 10ms 0ms;
-}
-.menu .checkmark:hover::after {
-  right: 10px;
-  opacity: 1;
-}
-.menu .checkmark::after {
-  content: "check";
-  position: absolute;
-  right: -20px;
-  transform: translateY(-50%);
-  opacity: 0;
-  transition: right 0.3s, opacity 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */

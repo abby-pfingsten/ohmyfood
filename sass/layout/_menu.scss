@@ -50,6 +50,7 @@
     gap: 10px;
   }
   &__dish {
+    width: 95%;
     padding-bottom: 5px;
     border-radius: 15px;
     padding: 10px;
@@ -65,18 +66,22 @@
       color: black;
       font-weight: bold;
     }
-    &--div {
-      padding-top: 5px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      font-weight: lighter;
+    &--title-desc {
+      width: 1000%;
     }
+    // &--div {
+    //   padding-top: 5px;
+    //   display: flex;
+    //   flex-direction: row;
+    //   justify-content: space-between;
+    //   font-weight: lighter;
+    // }
     &--price {
       font-weight: bold;
       margin-top: 15px;
     }
-    &--checkmark {
+    &--checkmark-div {
+      overflow: hidden;
       margin-top: 15px;
     }
   }
@@ -125,32 +130,32 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .checkmark {
-    // width: 100%;
-    display: block;
-    background-color: green;
-    animation: cat 0ms 0ms;
+  //   .checkmark {
+  //     // width: 100%;
+  //     display: block;
+  //     background-color: green;
+  //     animation: cat 0ms 0ms;
 
-    // display: none;
-    &:hover {
-      &--green {
-        transform: rotate(0deg);
-        animation: cat 10ms 0ms;
-      }
-      &::after {
-        // content: "c";
-        // position: absolute;
-        right: 10px;
-        opacity: 1;
-      }
-    }
-    &::after {
-      content: "check";
-      position: absolute;
-      right: -20px;
-      transform: translateY(-50%);
-      opacity: 0;
-      transition: right 0.3s, opacity 0.3s;
-    }
-  }
+  //     // display: none;
+  //     &:hover {
+  //       &--green {
+  //         transform: rotate(0deg);
+  //         animation: cat 10ms 0ms;
+  //       }
+  //       &::after {
+  //         // content: "c";
+  //         // position: absolute;
+  //         right: 10px;
+  //         opacity: 1;
+  //       }
+  //     }
+  //     &::after {
+  //       content: "check";
+  //       position: absolute;
+  //       right: -20px;
+  //       transform: translateY(-50%);
+  //       opacity: 0;
+  //       transition: right 0.3s, opacity 0.3s;
+  //     }
+  //   }
 }
