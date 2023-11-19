@@ -66,14 +66,6 @@
       margin-right: 35px;
       font-size: 20px;
       border: none;
-      // transition: opacity 500ms;
-      // &:hover {
-      //   background: linear-gradient(
-      //     to bottom right,
-      //     $colour-secondary,
-      //     $colour-primary
-      //   );
-      // }
     }
     &--full {
       opacity: 0;
@@ -85,18 +77,10 @@
         $colour-primary
       );
       background-clip: text;
-      -webkit-background-clip: text;
+      // -webkit-background-clip: text;
       color: transparent;
 
       &:hover {
-        // background-clip: text;
-        // -webkit-background-clip: text;
-        // color: transparent;
-        // background: linear-gradient(
-        //   to bottom right,
-        //   $colour-secondary,
-        //   $colour-primary
-        // );
         opacity: 1;
       }
     }

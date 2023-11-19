@@ -332,7 +332,6 @@ body {
   transition: opacity 500ms;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   background-clip: text;
-  -webkit-background-clip: text;
   color: transparent;
 }
 .restaurant__restaurantChoice--full:hover {
@@ -484,6 +483,7 @@ body {
 .menu__dish:hover a {
   background-color: pink;
   width: 330px;
+  transition: width 500ms;
 }
 .menu__dish:hover .menu__dish--title-desc {
   white-space: nowrap;

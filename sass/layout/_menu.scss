@@ -104,6 +104,7 @@
       // squeezes check mark to be back inside li tag
       background-color: pink;
       width: 330px;
+      transition: width 500ms;
     }
     &:hover &--title-desc {
       //   width: 230px;
