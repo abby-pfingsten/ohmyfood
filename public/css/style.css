@@ -465,7 +465,9 @@ body {
 }
 .menu__dish--price {
   font-weight: bold;
+  align-self: flex-end;
   width: 50px;
+  margin-bottom: 12px;
 }
 .menu__dish--checkmark-div {
   width: 50px;

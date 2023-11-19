@@ -84,7 +84,9 @@
     }
     &--price {
       font-weight: bold;
+      align-self: flex-end;
       width: 50px;
+      margin-bottom: 12px;
     }
     &--checkmark-div {
       width: 50px;
