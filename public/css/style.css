@@ -452,7 +452,16 @@ body {
   height: 100%;
 }
 .menu__dish--title-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: 10px;
   width: 290px;
+}
+.menu__dish--title-desc p {
+  margin-top: -5px;
+  font-weight: lighter;
 }
 .menu__dish--price {
   font-weight: bold;
