@@ -432,14 +432,14 @@ body {
   gap: 10px;
 }
 .menu__dish {
-  width: 95%;
-  padding-bottom: 5px;
+  width: 330px;
+  height: 60px;
   border-radius: 15px;
-  padding: 10px;
   font-size: 13px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   list-style-type: none;
+  overflow: hidden;
 }
 .menu__dish a {
   display: flex;
@@ -448,26 +448,34 @@ body {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  width: 380px;
+  height: 100%;
 }
 .menu__dish--title-desc {
-  width: 1000%;
-}
-.menu__dish--title-desc:hover {
-  width: 5%;
+  width: 290px;
 }
 .menu__dish--price {
   font-weight: bold;
-  margin-top: 15px;
+  width: 50px;
 }
 .menu__dish--checkmark-div {
+  width: 50px;
+  height: 100%;
   overflow: hidden;
-  margin-top: 15px;
+  background-color: #99E2D0;
 }
-.menu__dish:hover {
+.menu__dish--checkmark-icon {
+  color: #99E2D0;
+  border-radius: 55%;
+  background-color: white;
+  padding: 3px 5px;
+}
+.menu__dish:hover a {
   background-color: pink;
+  width: 330px;
 }
-.menu__dish:hover--title-desc {
-  width: 5%;
+.menu__dish:hover .menu__dish--title-desc {
+  width: 230px;
 }
 .menu__button {
   width: 40%;

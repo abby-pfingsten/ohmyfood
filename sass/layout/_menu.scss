@@ -50,14 +50,16 @@
     gap: 10px;
   }
   &__dish {
-    width: 95%;
-    padding-bottom: 5px;
+    width: 330px;
+    height: 60px;
+    // padding-bottom: 5px;
     border-radius: 15px;
-    padding: 10px;
+    // padding: 10px;
     font-size: 13px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     list-style-type: none;
+    overflow: hidden;
     a {
       display: flex;
       flex-direction: row;
@@ -65,26 +67,39 @@
       text-decoration: none;
       color: black;
       font-weight: bold;
+      width: 380px;
+      height: 100%;
+      //   padding-bottom: 5px;
+      //   padding: 10px;
     }
     &--title-desc {
-      width: 1000%;
-      &:hover {
-        width: 5%;
-      }
+      width: 290px;
     }
     &--price {
       font-weight: bold;
-      margin-top: 15px;
+      width: 50px;
     }
     &--checkmark-div {
+      width: 50px;
+      height: 100%;
       overflow: hidden;
-      margin-top: 15px;
+      //   margin-top: 15px;
+      background-color: $colour-tertiary;
+      //   padding: 15px;
     }
-    &:hover {
+    &--checkmark-icon {
+      color: $colour-tertiary;
+      border-radius: 55%;
+      background-color: white;
+      padding: 3px 5px;
+    }
+    &:hover a {
+      // squeezes check mark to be back inside li tag
       background-color: pink;
-      &--title-desc {
-        width: 5%;
-      }
+      width: 330px;
+    }
+    &:hover &--title-desc {
+      width: 230px;
     }
   }
   &__button {
