@@ -475,13 +475,15 @@ body {
   background-color: #99E2D0;
 }
 .menu__dish--checkmark-icon {
+  margin: 20px 15px 5px 10px;
   color: #99E2D0;
   border-radius: 55%;
   background-color: white;
   padding: 3px 5px;
+  transform: rotate(-360deg);
+  transition: transform 500ms ease-in-out;
 }
 .menu__dish:hover a {
-  background-color: pink;
   width: 330px;
   transition: width 500ms;
 }
@@ -490,6 +492,9 @@ body {
   overflow: hidden;
   resize: horizontal;
   text-overflow: ellipsis;
+}
+.menu__dish:hover .menu__dish--checkmark-icon {
+  transform: rotate(0deg);
 }
 .menu__button {
   width: 40%;

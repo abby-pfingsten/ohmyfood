@@ -95,14 +95,16 @@
       background-color: $colour-tertiary;
     }
     &--checkmark-icon {
+      margin: 20px 15px 5px 10px;
       color: $colour-tertiary;
       border-radius: 55%;
       background-color: white;
       padding: 3px 5px;
+      transform: rotate(-360deg);
+      transition: transform 500ms ease-in-out;
     }
     &:hover a {
       // squeezes check mark to be back inside li tag
-      background-color: pink;
       width: 330px;
       transition: width 500ms;
     }
@@ -112,6 +114,10 @@
       overflow: hidden;
       resize: horizontal;
       text-overflow: ellipsis;
+    }
+
+    &:hover &--checkmark-icon {
+      transform: rotate(0deg);
     }
   }
   &__button {
