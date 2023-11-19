@@ -486,7 +486,10 @@ body {
   width: 330px;
 }
 .menu__dish:hover .menu__dish--title-desc {
-  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  resize: horizontal;
+  text-overflow: ellipsis;
 }
 .menu__button {
   width: 40%;

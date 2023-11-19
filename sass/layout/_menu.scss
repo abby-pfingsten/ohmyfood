@@ -106,7 +106,11 @@
       width: 330px;
     }
     &:hover &--title-desc {
-      width: 230px;
+      //   width: 230px;
+      white-space: nowrap;
+      overflow: hidden;
+      resize: horizontal;
+      text-overflow: ellipsis;
     }
   }
   &__button {
