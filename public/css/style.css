@@ -197,7 +197,7 @@ body {
     justify-content: center;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 970px) {
   .instructions__step {
     display: flex;
     flex-direction: row;
@@ -430,7 +430,7 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 970px) {
   .menu__dish-list {
     display: flex;
     flex-direction: row;
@@ -536,7 +536,7 @@ body {
     margin-top: 100px;
   }
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 970px) {
   .menu__button {
     width: 20%;
     margin-left: 0;
@@ -546,7 +546,7 @@ body {
   .menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    gap: 25px;
   }
 }
 

@@ -171,6 +171,6 @@
   @include desktop-only {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    gap: 25px;
   }
 }
