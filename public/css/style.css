@@ -498,6 +498,11 @@ body {
 .menu__dish:hover a {
   width: 330px;
 }
+@media screen and (min-width: 380px) and (max-width: 970px) {
+  .menu__dish:hover a {
+    width: 100%;
+  }
+}
 .menu__dish:hover .menu__dish--title-desc {
   white-space: nowrap;
   overflow: hidden;

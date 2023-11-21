@@ -113,6 +113,9 @@
     &:hover a {
       // squeezes check mark to be back inside li tag
       width: 330px;
+      @include tablet-only {
+        width: 100%;
+      }
     }
     &:hover &--title-desc {
       //   width: 230px;
