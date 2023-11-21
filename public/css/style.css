@@ -197,7 +197,7 @@ body {
     justify-content: center;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 970px) {
+@media screen and (min-width: 380px) and (max-width: 970px) {
   .instructions__step {
     display: flex;
     flex-direction: row;
@@ -396,6 +396,11 @@ body {
   font-size: 25px;
   padding-bottom: 20px;
 }
+@media screen and (min-width: 970px) {
+  .menu__title-heart--title {
+    text-align: center;
+  }
+}
 .menu__title-heart--heart {
   position: relative;
   top: 10px;
@@ -430,7 +435,7 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-@media screen and (min-width: 375px) and (max-width: 970px) {
+@media screen and (min-width: 380px) and (max-width: 970px) {
   .menu__dish-list {
     display: flex;
     flex-direction: row;
@@ -536,7 +541,7 @@ body {
     margin-top: 100px;
   }
 }
-@media screen and (min-width: 375px) and (max-width: 970px) {
+@media screen and (min-width: 380px) and (max-width: 970px) {
   .menu__button {
     width: 20%;
     margin-left: 0;
