@@ -340,6 +340,9 @@ body {
 .restaurant__restaurantChoice--empty {
   position: absolute;
 }
+.restaurant__restaurantChoice:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 .restaurant__lastRestaurantChoice {
   margin-bottom: 50px;
 }
