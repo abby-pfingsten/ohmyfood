@@ -460,6 +460,7 @@ body {
   font-weight: bold;
   width: 380px;
   height: 100%;
+  transition: width 500ms;
 }
 .menu__dish--title-desc {
   display: flex;
@@ -496,7 +497,6 @@ body {
 }
 .menu__dish:hover a {
   width: 330px;
-  transition: width 500ms;
 }
 .menu__dish:hover .menu__dish--title-desc {
   white-space: nowrap;

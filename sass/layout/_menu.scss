@@ -74,6 +74,8 @@
       font-weight: bold;
       width: 380px;
       height: 100%;
+      // width: 330px;
+      transition: width 500ms;
     }
     &--title-desc {
       display: flex;
@@ -111,7 +113,6 @@
     &:hover a {
       // squeezes check mark to be back inside li tag
       width: 330px;
-      transition: width 500ms;
     }
     &:hover &--title-desc {
       //   width: 230px;
