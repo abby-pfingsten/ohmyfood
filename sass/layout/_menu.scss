@@ -84,9 +84,16 @@
       justify-content: space-evenly;
       margin-left: 10px;
       width: 290px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       p {
         margin-top: -5px;
         font-weight: lighter;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
     &--price {
@@ -117,13 +124,13 @@
         width: 100%;
       }
     }
-    &:hover &--title-desc {
-      //   width: 230px;
-      white-space: nowrap;
-      overflow: hidden;
-      resize: horizontal;
-      text-overflow: ellipsis;
-    }
+    // &:hover &--title-desc {
+    //   //   width: 230px;
+    //   white-space: nowrap;
+    //   overflow: hidden;
+    //   // resize: horizontal;
+    //   text-overflow: ellipsis;
+    // }
 
     &:hover &--checkmark-icon {
       transform: rotate(0deg);

@@ -472,10 +472,17 @@ body {
   justify-content: space-evenly;
   margin-left: 10px;
   width: 290px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu__dish--title-desc p {
   margin-top: -5px;
   font-weight: lighter;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu__dish--price {
   font-weight: bold;
@@ -505,12 +512,6 @@ body {
   .menu__dish:hover a {
     width: 100%;
   }
-}
-.menu__dish:hover .menu__dish--title-desc {
-  white-space: nowrap;
-  overflow: hidden;
-  resize: horizontal;
-  text-overflow: ellipsis;
 }
 .menu__dish:hover .menu__dish--checkmark-icon {
   transform: rotate(0deg);
