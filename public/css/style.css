@@ -459,7 +459,7 @@ body {
   list-style-type: none;
   overflow: hidden;
   animation: fadeIn 0.5s ease-out forwards;
-  opacity: 0; /* set initial opacity to 0 */
+  opacity: 0;
 }
 .menu__dish a {
   display: flex;
