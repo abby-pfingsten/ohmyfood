@@ -17,14 +17,7 @@
     height: 50px;
     animation: spin 2s linear infinite;
   }
-  // &__bar::after {
-  //   opacity: 1;
-  // }
 }
-
-// .container {
-//   animation: content 0ms 2000ms both;
-// }
 
 @keyframes spin {
   0% {
@@ -55,11 +48,13 @@
   }
 }
 
-@keyframes cat {
+@keyframes fadeIn {
   0% {
-    transform: translateX(-9999px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   100% {
-    transform: translateX(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }

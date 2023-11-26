@@ -44,12 +44,14 @@
     opacity: 1;
   }
 }
-@keyframes cat {
+@keyframes fadeIn {
   0% {
-    transform: translateX(-9999px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   100% {
-    transform: translateX(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 *,
@@ -436,6 +438,8 @@ body {
 .menu__dish-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 @media screen and (min-width: 380px) and (max-width: 970px) {
@@ -446,6 +450,7 @@ body {
 }
 .menu__dish {
   width: 330px;
+  min-width: 330px;
   height: 60px;
   border-radius: 15px;
   font-size: 13px;
