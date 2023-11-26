@@ -510,7 +510,7 @@ body {
   background-color: white;
   padding: 3px 5px;
   transform: rotate(-360deg);
-  transition: transform 500ms ease-in-out;
+  transition: transform 600ms ease-in-out;
 }
 .menu__dish:hover a {
   width: 330px;
@@ -530,7 +530,7 @@ body {
   animation-delay: 0.2s;
 }
 .menu__dish:nth-child(3) {
-  animation-delay: 0.3s;
+  animation-delay: 0.4s;
 }
 .menu__button {
   width: 40%;
