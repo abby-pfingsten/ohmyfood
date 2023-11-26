@@ -70,6 +70,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     list-style-type: none;
     overflow: hidden;
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0; /* set initial opacity to 0 */
     a {
       display: flex;
       flex-direction: row;
@@ -129,16 +131,19 @@
         width: 100%;
       }
     }
-    // &:hover &--title-desc {
-    //   //   width: 230px;
-    //   white-space: nowrap;
-    //   overflow: hidden;
-    //   // resize: horizontal;
-    //   text-overflow: ellipsis;
-    // }
-
     &:hover &--checkmark-icon {
       transform: rotate(0deg);
+    }
+    &:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 0.3s;
     }
   }
   &__button {
