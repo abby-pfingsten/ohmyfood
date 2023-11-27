@@ -98,7 +98,7 @@ body {
   }
 }
 .header__image {
-  width: 60%;
+  width: 50%;
   margin: 20px;
 }
 @media screen and (min-width: 970px) {
