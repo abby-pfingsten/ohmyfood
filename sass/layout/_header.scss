@@ -68,5 +68,13 @@ $margins: (
       object-fit: cover;
       object-position: 50% 70%;
     }
+    @include tablet-only {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: 50% 70%;
+    }
   }
 }
