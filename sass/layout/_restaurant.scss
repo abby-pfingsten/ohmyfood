@@ -77,7 +77,7 @@
         $colour-primary
       );
       background-clip: text;
-      // -webkit-background-clip: text;
+      -webkit-background-clip: text;
       color: transparent;
 
       &:hover {

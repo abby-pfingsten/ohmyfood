@@ -64,7 +64,9 @@ $margins: (
       display: flex;
       flex-direction: column;
       width: 100%;
-      flex-basis: 30%;
+      height: 300px;
+      object-fit: cover;
+      object-position: 50% 70%;
     }
   }
 }
