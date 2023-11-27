@@ -27,8 +27,13 @@ $margins: (
     }
   }
   &__image {
-    width: 50%;
+    width: 60%;
     margin: map-get($margins, header-side);
+  }
+  &__imageimg {
+    @include desktop-only {
+      width: 20%;
+    }
   }
   &__location {
     width: 100%;

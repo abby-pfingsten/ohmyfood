@@ -98,8 +98,13 @@ body {
   }
 }
 .header__image {
-  width: 50%;
+  width: 60%;
   margin: 20px;
+}
+@media screen and (min-width: 970px) {
+  .header__imageimg {
+    width: 20%;
+  }
 }
 .header__location {
   width: 100%;
