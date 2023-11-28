@@ -417,6 +417,7 @@ body {
   border-top-right-radius: 25px;
   top: -50px;
   margin-bottom: -50px;
+  flex-wrap: wrap;
 }
 .menu__title-heart {
   display: flex;
@@ -515,6 +516,7 @@ body {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-bottom: 2px;
 }
 .menu__dish--title-desc p {
   margin-top: -5px;
@@ -566,6 +568,9 @@ body {
 .menu__dish:nth-child(3) {
   animation-delay: 0.4s;
 }
+.menu__dish--roast-chicken {
+  height: 70px;
+}
 .menu__button {
   width: 40%;
   margin-left: 70px;
@@ -607,6 +612,13 @@ body {
   }
 }
 @media screen and (min-width: 970px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu {
     display: flex;
     flex-direction: row;

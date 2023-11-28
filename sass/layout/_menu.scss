@@ -7,6 +7,7 @@
   border-top-right-radius: 25px;
   top: -50px;
   margin-bottom: -50px;
+  flex-wrap: wrap;
   &__title-heart {
     display: flex;
     flex-direction: row;
@@ -204,6 +205,7 @@
   @include desktop-only {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 25px;
   }
 }
