@@ -3,6 +3,9 @@
   color: white;
   font-weight: bold;
   padding-left: 20px;
+  @include desktop-only {
+    padding-bottom: 10px;
+  }
   &__title {
     font-family: "Shrikhand";
     padding-top: 15px;

@@ -377,6 +377,11 @@ body {
   font-weight: bold;
   padding-left: 20px;
 }
+@media screen and (min-width: 970px) {
+  .footer {
+    padding-bottom: 10px;
+  }
+}
 .footer__title {
   font-family: "Shrikhand";
   padding-top: 15px;
