@@ -5,7 +5,6 @@
   background-color: $lighter-gray;
   padding-top: 20px;
   padding-left: 20px;
-  //    how do I get restaurants on separate header
   @include desktop-only {
     display: flex;
     flex-direction: row;
