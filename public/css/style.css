@@ -151,6 +151,10 @@ body {
     object-position: 50% 70%;
   }
 }
+.header__enchanted-plate {
+  object-fit: cover;
+  height: 250px;
+}
 
 .home-nav {
   background-color: #f1f1ef;
