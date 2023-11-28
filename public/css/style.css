@@ -141,7 +141,7 @@ body {
     object-position: 50% 70%;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .header__restaurant-image {
     display: flex;
     flex-direction: column;
@@ -220,7 +220,7 @@ body {
     justify-content: center;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .instructions__step {
     display: flex;
     flex-direction: row;
@@ -469,7 +469,7 @@ body {
   flex-wrap: wrap;
   gap: 10px;
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu__dish-list {
     display: flex;
     flex-direction: row;
@@ -510,6 +510,12 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.menu__dish--title-desc h3 {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .menu__dish--title-desc p {
   margin-top: -5px;
   font-weight: lighter;
@@ -517,6 +523,7 @@ body {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-bottom: 2px;
 }
 .menu__dish--price {
   font-weight: bold;
@@ -542,7 +549,7 @@ body {
 .menu__dish:hover a {
   width: 330px;
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu__dish:hover a {
     width: 100%;
   }
@@ -593,7 +600,7 @@ body {
     margin-top: 100px;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu__button {
     width: 20%;
     margin-left: 0;
