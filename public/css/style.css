@@ -141,7 +141,7 @@ body {
     object-position: 50% 70%;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .header__restaurant-image {
     display: flex;
     flex-direction: column;
@@ -150,6 +150,10 @@ body {
     object-fit: cover;
     object-position: 50% 70%;
   }
+}
+.header__enchanted-plate {
+  object-fit: cover;
+  height: 250px;
 }
 
 .home-nav {
@@ -216,7 +220,7 @@ body {
     justify-content: center;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .instructions__step {
     display: flex;
     flex-direction: row;
@@ -373,6 +377,11 @@ body {
   font-weight: bold;
   padding-left: 20px;
 }
+@media screen and (min-width: 970px) {
+  .footer {
+    padding-bottom: 10px;
+  }
+}
 .footer__title {
   font-family: "Shrikhand";
   padding-top: 15px;
@@ -408,6 +417,7 @@ body {
   border-top-right-radius: 25px;
   top: -50px;
   margin-bottom: -50px;
+  flex-wrap: wrap;
 }
 .menu__title-heart {
   display: flex;
@@ -460,7 +470,7 @@ body {
   flex-wrap: wrap;
   gap: 10px;
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu__dish-list {
     display: flex;
     flex-direction: row;
@@ -501,6 +511,13 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.menu__dish--title-desc h3 {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 2px;
+}
 .menu__dish--title-desc p {
   margin-top: -5px;
   font-weight: lighter;
@@ -508,6 +525,7 @@ body {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-bottom: 2px;
 }
 .menu__dish--price {
   font-weight: bold;
@@ -533,7 +551,7 @@ body {
 .menu__dish:hover a {
   width: 330px;
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu__dish:hover a {
     width: 100%;
   }
@@ -549,6 +567,9 @@ body {
 }
 .menu__dish:nth-child(3) {
   animation-delay: 0.4s;
+}
+.menu__dish--roast-chicken {
+  height: 70px;
 }
 .menu__button {
   width: 40%;
@@ -584,13 +605,20 @@ body {
     margin-top: 100px;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 970px) {
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu__button {
     width: 20%;
     margin-left: 0;
   }
 }
 @media screen and (min-width: 970px) {
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 970px) {
   .menu {
     display: flex;
     flex-direction: row;

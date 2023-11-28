@@ -77,4 +77,8 @@ $margins: (
       object-position: 50% 70%;
     }
   }
+  &__enchanted-plate {
+    object-fit: cover;
+    height: 250px;
+  }
 }
