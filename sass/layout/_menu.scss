@@ -1,0 +1,198 @@
+.menu {
+  position: relative;
+  background-color: $lighter-gray;
+  z-index: 1;
+  padding: 40px 10px 5px 10px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  top: -50px;
+  margin-bottom: -50px;
+  &__title-heart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &--title {
+      font-family: "Shrikhand";
+      font-size: 25px;
+      padding-bottom: 20px;
+      @include desktop-only {
+        text-align: center;
+      }
+    }
+    &--heart {
+      position: relative;
+      top: 10px;
+      right: 10px;
+      font-size: 25px;
+      @include desktop-only {
+        margin-left: 50px;
+        margin-top: 5px;
+      }
+    }
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    &--title {
+      color: darken($dark-gray, 65%);
+      font-weight: lighter;
+      border: 3px solid $colour-tertiary;
+      border-right-style: none;
+      border-left-style: none;
+      border-top-style: none;
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+      width: 30px;
+      white-space: nowrap;
+    }
+  }
+  &__dish-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    @include tablet-only {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  &__dish {
+    width: 330px;
+    min-width: 330px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 13px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    overflow: hidden;
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0; 
+    a {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      width: 380px;
+      height: 100%;
+      // width: 330px;
+      transition: width 500ms;
+    }
+    &--title-desc {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      margin-left: 10px;
+      width: 290px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      p {
+        margin-top: -5px;
+        font-weight: lighter;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+    &--price {
+      font-weight: bold;
+      align-self: flex-end;
+      width: 50px;
+      margin-bottom: 12px;
+    }
+    &--checkmark-div {
+      width: 50px;
+      height: 100%;
+      overflow: hidden;
+      background-color: $colour-tertiary;
+    }
+    &--checkmark-icon {
+      margin: 20px 15px 5px 10px;
+      color: $colour-tertiary;
+      border-radius: 55%;
+      background-color: white;
+      padding: 3px 5px;
+      transform: rotate(-360deg);
+      transition: transform 600ms ease-in-out;
+    }
+    &:hover a {
+      // squeezes check mark to be back inside li tag
+      width: 330px;
+      @include tablet-only {
+        width: 100%;
+      }
+    }
+    &:hover &--checkmark-icon {
+      transform: rotate(0deg);
+    }
+    &:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+  }
+  &__button {
+    width: 40%;
+    margin-left: 70px;
+    text-align: center;
+    font-size: $nav-st-font-size;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 35px;
+    padding: 15px 25px;
+    background-image: linear-gradient(
+      to bottom right,
+      $colour-secondary,
+      $colour-primary
+    );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: white;
+    transition: all 450ms;
+    h2 {
+      font-size: 15px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    &:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+      background-image: linear-gradient(
+        to bottom right,
+        lighten($colour-secondary, 2%),
+        lighten($colour-primary, 2%)
+      );
+    }
+    @include desktop-only {
+      width: 5%;
+      margin: 0;
+      height: 5%;
+      margin-top: 100px;
+    }
+    @include tablet-only {
+      width: 20%;
+      margin-left: 0;
+    }
+  }
+  @include desktop-only {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+  }
+}

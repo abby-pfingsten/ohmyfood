@@ -1,8 +1,8 @@
 $margin-for-num: 0px;
-$font-size-for-instructions: 15px;
+$font-size-for-instructions: 14px;
 .instructions {
   margin-left: 20px;
-  font-size: $font-size-for-instructions;
+  font-size: 14px;
   &__title {
     font-size: 20px;
   }
@@ -12,6 +12,11 @@ $font-size-for-instructions: 15px;
     justify-content: left;
     position: relative;
     @include desktop-only {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    @include tablet-only {
       display: flex;
       flex-direction: row;
       justify-content: center;

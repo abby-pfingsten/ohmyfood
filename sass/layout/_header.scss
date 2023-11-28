@@ -7,15 +7,31 @@ $margins: (
   flex-direction: column;
   align-items: center;
   width: 100%;
-  > img {
+  &__arrow-image {
+    display: flex;
+    flex-direction: row;
+    img {
+      position: relative;
+      left: 60px;
+    }
+    a {
+      position: relative;
+      font-size: 20px;
+      top: 28px;
+      left: 10px;
+      text-decoration: none;
+      color: black;
+      @include desktop-only {
+        left: -440px;
+      }
+    }
+  }
+  &__image {
     width: 50%;
     margin: map-get($margins, header-side);
   }
-  // how does this work
-  @include desktop-only {
-    display: flex;
-    align-items: center;
-    > img {
+  &__imageimg {
+    @include desktop-only {
       width: 20%;
     }
   }
@@ -34,6 +50,31 @@ $margins: (
 
     &--text {
       margin-left: 10px;
+    }
+
+    &--text-rest-pages {
+      display: none;
+    }
+  }
+
+  &__restaurant-image {
+    display: block;
+    width: 100%;
+    @include desktop-only {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: 50% 70%;
+    }
+    @include tablet-only {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: 50% 70%;
     }
   }
 }
