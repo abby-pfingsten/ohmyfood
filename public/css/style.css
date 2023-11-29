@@ -615,13 +615,7 @@ body {
   .menu {
     display: flex;
     flex-direction: row;
-    gap: 25px;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 970px) {
-  .menu {
-    display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 25px;
   }
 }

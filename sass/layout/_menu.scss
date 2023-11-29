@@ -205,7 +205,7 @@
   @include desktop-only {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     gap: 25px;
   }
 }
