@@ -612,7 +612,7 @@ body {
   .menu__button {
     margin: 0;
     height: 5%;
-    margin-top: 100px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 970px) {
