@@ -87,8 +87,8 @@ body {
 .header__arrow-image a {
   position: relative;
   font-size: 20px;
-  top: 28px;
-  left: 10px;
+  top: 24px;
+  left: 20px;
   text-decoration: none;
   color: black;
 }
@@ -615,7 +615,6 @@ body {
   .menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 25px;
   }
 }
