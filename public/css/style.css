@@ -67,7 +67,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", "Shirkhand";
+  font-family: "Roboto";
 }
 
 .header {
@@ -446,6 +446,12 @@ body {
     margin-top: 5px;
   }
 }
+.menu__sections {
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 .menu__section {
   display: flex;
   flex-direction: column;
@@ -534,13 +540,15 @@ body {
   margin-bottom: 12px;
 }
 .menu__dish--checkmark-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50px;
   height: 100%;
   overflow: hidden;
   background-color: #99E2D0;
 }
 .menu__dish--checkmark-icon {
-  margin: 20px 15px 5px 10px;
   color: #99E2D0;
   border-radius: 55%;
   background-color: white;
@@ -571,9 +579,12 @@ body {
 .menu__dish--roast-chicken {
   height: 70px;
 }
+.menu__button-container {
+  display: flex;
+  justify-content: center;
+}
 .menu__button {
-  width: 40%;
-  margin-left: 70px;
+  width: 150px;
   text-align: center;
   font-size: 15px;
   margin-top: 40px;
@@ -599,7 +610,6 @@ body {
 }
 @media screen and (min-width: 970px) {
   .menu__button {
-    width: 5%;
     margin: 0;
     height: 5%;
     margin-top: 100px;
@@ -607,14 +617,14 @@ body {
 }
 @media screen and (min-width: 400px) and (max-width: 970px) {
   .menu__button {
-    width: 20%;
     margin-left: 0;
   }
 }
 @media screen and (min-width: 970px) {
   .menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     gap: 25px;
   }
 }
