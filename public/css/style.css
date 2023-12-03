@@ -94,7 +94,7 @@ body {
 }
 @media screen and (min-width: 970px) {
   .header__arrow-image a {
-    left: -440px;
+    left: -400px;
   }
 }
 .header__image {
